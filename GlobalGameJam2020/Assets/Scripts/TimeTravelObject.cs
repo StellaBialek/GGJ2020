@@ -7,7 +7,7 @@ public class TimeTravelObject : MonoBehaviour
 {
     public float Radius = 1f;
     public AnimationCurve Affection;
-    public bool IsAffected { get { return affectors.Count > 0; } }
+    public bool IsAffected { get { return AffectionLevel > 0.01f; } }
     public bool IsLocked
     {
         get
@@ -40,7 +40,14 @@ public class TimeTravelObject : MonoBehaviour
             {
                 foreach (TimeTravelAffector affector in affectors)
                 {
-                    float distance = Vector3.Distance(affector.transform.position, transform.position);
+                    Transform affectorTransform = affector.transform;
+                    Helper helper = affector.GetComponent<Helper>();
+                    if(helper) //for helpers, use reference point to measure distance, so the values doesn't jump all over the place
+                    {
+                        if (helper.Target != transform) continue;
+                        affectorTransform = helper.Target;
+                    }
+                    float distance = Vector3.Distance(affectorTransform.position, transform.position);
                     affection = Mathf.Max(affection, Affection.Evaluate(1f - (distance / Radius)));
                 }
             }

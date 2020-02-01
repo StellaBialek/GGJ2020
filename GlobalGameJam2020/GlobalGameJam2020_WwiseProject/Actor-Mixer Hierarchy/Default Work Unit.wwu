@@ -139,6 +139,11 @@
 						<Sound Name="music_ambience" ID="{71B5F963-030E-4AC6-8F8E-CC6F9764DCFD}" ShortID="1029529632">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -625,6 +630,19 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="obj_light_01" ID="{B2727AE2-F178-4C8B-AF4E-AE5235DCD122}" ShortID="813953513">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>38</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
@@ -644,6 +662,19 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="obj_light_02" ID="{F2ED7676-E03B-41DD-9AF4-0B2C1FDFA9FB}" ShortID="103134377">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>34</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
@@ -663,6 +694,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="obj_light_03" ID="{23059C7A-F8E6-4C2B-988F-F6EAA8A33B01}" ShortID="988924311">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
@@ -685,6 +719,127 @@
 					<PositioningInfo>
 						<Position Name="" ID="{33AC53C0-FC74-4E00-B70C-0B2CD979AB0C}"/>
 					</PositioningInfo>
+				</ActorMixer>
+				<ActorMixer Name="Ambience" ID="{F62B4ECC-56F1-4F98-AC21-D8BEDEE11B05}" ShortID="124888946">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="amb_creeking" ID="{8BB3974B-E2E1-4F92-94A3-34F9C73892A3}" ShortID="275502798">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-21</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="World Ambience" ID="{97750623-9A00-42E8-BF03-6B9CC8757AF4}" WorkUnitID="{0E022FAE-FE62-4640-843C-4B716C5C2B97}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_creeking" ID="{D9A2CC9F-6218-4465-86DB-A60FD58A7AF5}" ShortID="367782762">
+									<Language>SFX</Language>
+									<AudioFile>amb_creeking.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_creeking" ID="{D9A2CC9F-6218-4465-86DB-A60FD58A7AF5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_sea" ID="{98597D01-C6B5-45AF-8683-14121FCB60D1}" ShortID="677996317">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Sea" ID="{EEC35B80-BAF8-4095-A1ED-5243C539725C}" WorkUnitID="{0E022FAE-FE62-4640-843C-4B716C5C2B97}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_sea" ID="{6EA4DBED-32ED-48FC-A3D4-F7BC81DEAF3C}" ShortID="423798247">
+									<Language>SFX</Language>
+									<AudioFile>amb_sea.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_sea" ID="{6EA4DBED-32ED-48FC-A3D4-F7BC81DEAF3C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_waterfall_big" ID="{EBDE1482-5B18-4610-B831-68AA5FAFC5E6}" ShortID="166525965">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="World Ambience" ID="{97750623-9A00-42E8-BF03-6B9CC8757AF4}" WorkUnitID="{0E022FAE-FE62-4640-843C-4B716C5C2B97}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_waterfall_big" ID="{57D050EC-FAD8-4E90-9CB5-9E2CD6CF8899}" ShortID="543235144">
+									<Language>SFX</Language>
+									<AudioFile>amb_waterfall_big.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_waterfall_big" ID="{57D050EC-FAD8-4E90-9CB5-9E2CD6CF8899}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_waterfall_small" ID="{FE637B3B-A531-4C11-B93C-8A851037964E}" ShortID="788050968">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="World Ambience" ID="{97750623-9A00-42E8-BF03-6B9CC8757AF4}" WorkUnitID="{0E022FAE-FE62-4640-843C-4B716C5C2B97}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_waterfall_small" ID="{1719A3D6-8401-40D7-8C1B-397BDB9FA923}" ShortID="801914054">
+									<Language>SFX</Language>
+									<AudioFile>amb_waterfall_small.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_waterfall_small" ID="{1719A3D6-8401-40D7-8C1B-397BDB9FA923}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

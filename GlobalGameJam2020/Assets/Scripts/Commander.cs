@@ -5,15 +5,20 @@ using System.Linq;
 
 public class Commander : MonoBehaviour
 {
+    public GameObject HelperPrefab;
+    public int NumHelpers = 3;
+
     private List<Helper> helpers = new List<Helper>();
     private TimeTravelAffector affector;
 
     void Start()
     {
         affector = GetComponent<TimeTravelAffector>();
-        helpers = new List<Helper>(FindObjectsOfType<Helper>());
-        foreach(Helper helper in helpers)
+        for (int i = 0; i < NumHelpers; i++)
         {
+            GameObject helperObject = GameObject.Instantiate(HelperPrefab);
+            Helper helper = helperObject.GetComponent<Helper>();
+            helpers.Add(helper);
             helper.Target = transform;
         }
     }
