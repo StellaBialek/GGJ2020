@@ -12,6 +12,7 @@
 				</SoundBank>
 				<SoundBank Name="SFX" ID="{3503C2AD-7E2B-406C-9C16-28B3430C2ED1}">
 					<ObjectInclusionList>
+						<ObjectRef Name="footsteps" ID="{74980104-A249-4352-9EF7-8E8E0639A047}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_lock_music" ID="{FE3A203B-750D-4854-8E54-6E47DC6C7826}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
