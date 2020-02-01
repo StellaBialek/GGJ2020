@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	231259868	sfx_lock_music			\Default Work Unit\sfx_lock_music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	192069659	sfx_lock_03	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Mac\SFX\sfx_lock_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Lock Music\sfx_lock_03		1949604
+	234685809	sfx_lock_01	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Mac\SFX\sfx_lock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Lock Music\sfx_lock_01		1949604
+	335967248	sfx_lock_05	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Mac\SFX\sfx_lock_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Lock Music\sfx_lock_05		1949604
+	697919561	sfx_lock_04	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Mac\SFX\sfx_lock_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Lock Music\sfx_lock_04		1949604
+	1052868354	sfx_lock_02	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Mac\SFX\sfx_lock_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Lock Music\sfx_lock_02		1949604
+
