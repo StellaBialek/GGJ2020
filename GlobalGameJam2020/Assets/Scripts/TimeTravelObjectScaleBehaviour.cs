@@ -14,3 +14,5 @@ public class TimeTravelObjectScaleBehaviour : TimeTravelObjectBehaviour
         transform.localScale = Vector3.Lerp(Present, Past, AffectionLevel);
     }
 }
+
+

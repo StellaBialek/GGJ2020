@@ -25,11 +25,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
         m_Texture: {fileID: 2800000, guid: 122546bab1bd67c489d5676ed302878e, type: 3}
-        m_Scale: {x: 3, y: 1}
+        m_Scale: {x: 1, y: 20}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BottomFoamThreshold: 0.227
     - _DisplAmount: 0.45
+    - _FillRate: 1
     m_Colors:
     - _ColorBottomDark: {r: 0.023529412, g: 0.41568628, b: 0.5176471, a: 1}
     - _ColorBottomLight: {r: 0.03901884, g: 0.9377069, b: 1.034, a: 1}
