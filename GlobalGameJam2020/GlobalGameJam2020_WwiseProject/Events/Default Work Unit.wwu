@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="sfx_lock_music" ID="{FE3A203B-750D-4854-8E54-6E47DC6C7826}">
+					<ChildrenList>
+						<Action Name="" ID="{E37FAD85-A487-4697-8776-7E868D649E06}" ShortID="445720002">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX Lock Music" ID="{74D5E731-A2E1-446B-9A20-E211EA61A989}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="music" ID="{CBE39DB2-0E0D-4FA6-8D79-FFE0D491FCF5}">
+					<ChildrenList>
+						<Action Name="" ID="{7C7BCECE-9752-4F19-A554-3311BF72B2F0}" ShortID="714399761">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{16CFA451-4E88-4EB3-8674-2F72AF9EC919}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
