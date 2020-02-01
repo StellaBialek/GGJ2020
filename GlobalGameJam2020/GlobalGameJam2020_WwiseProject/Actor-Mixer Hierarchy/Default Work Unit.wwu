@@ -719,42 +719,6 @@
 								<ActiveSource Name="amb_creeking" ID="{D9A2CC9F-6218-4465-86DB-A60FD58A7AF5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="amb_sea" ID="{98597D01-C6B5-45AF-8683-14121FCB60D1}" ShortID="677996317">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="CenterPercentage" Type="int32">
-									<ValueList>
-										<Value>24</Value>
-									</ValueList>
-								</Property>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-24</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Sea" ID="{EEC35B80-BAF8-4095-A1ED-5243C539725C}" WorkUnitID="{0E022FAE-FE62-4640-843C-4B716C5C2B97}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="amb_sea" ID="{6EA4DBED-32ED-48FC-A3D4-F7BC81DEAF3C}" ShortID="423798247">
-									<Language>SFX</Language>
-									<AudioFile>amb_sea.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="amb_sea" ID="{6EA4DBED-32ED-48FC-A3D4-F7BC81DEAF3C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="amb_waterfall_big" ID="{EBDE1482-5B18-4610-B831-68AA5FAFC5E6}" ShortID="166525965">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -822,6 +786,74 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="amb_waterfall_small" ID="{1719A3D6-8401-40D7-8C1B-397BDB9FA923}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_sea_large" ID="{A04A714A-3071-4B81-AF17-657102CBA2FE}" ShortID="992622668">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Sea" ID="{EEC35B80-BAF8-4095-A1ED-5243C539725C}" WorkUnitID="{0E022FAE-FE62-4640-843C-4B716C5C2B97}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_sea_large" ID="{EAD94810-81BA-45E3-AE20-51C62DDFDDC7}" ShortID="894953627">
+									<Language>SFX</Language>
+									<AudioFile>amb_sea_large.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_sea_large" ID="{EAD94810-81BA-45E3-AE20-51C62DDFDDC7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_sea_small" ID="{F33F0E33-18CB-47A9-9C8A-DC4364803F68}" ShortID="562857456">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>27</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Sea Small" ID="{429FBE4D-66B7-4806-8481-E35DE1E23A16}" WorkUnitID="{0E022FAE-FE62-4640-843C-4B716C5C2B97}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_sea_small" ID="{B2141D95-AFF4-4FD3-8F19-B696001CF305}" ShortID="233966967">
+									<Language>SFX</Language>
+									<AudioFile>amb_sea_small.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_sea_small" ID="{B2141D95-AFF4-4FD3-8F19-B696001CF305}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

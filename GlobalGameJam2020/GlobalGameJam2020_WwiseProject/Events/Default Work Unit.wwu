@@ -91,17 +91,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="amb_sea" ID="{7CF62661-81C6-4919-95EE-72DF903F1267}">
-					<ChildrenList>
-						<Action Name="" ID="{B4EF1BD9-EB3C-44D4-92D0-E879F0A92F6C}" ShortID="35586399">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="amb_sea" ID="{98597D01-C6B5-45AF-8683-14121FCB60D1}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="amb_creeking" ID="{255B3689-5906-4FDE-A09F-7795A2C4E0B1}">
 					<ChildrenList>
 						<Action Name="" ID="{C3E441E6-E263-4748-B8DA-AC30B09603BB}" ShortID="671002627">
@@ -163,6 +152,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="sfx_unlock_object_light" ID="{F9F85B1F-B58D-49C7-A7AD-BBC42D2CA0D8}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_sea_large" ID="{AC5CC265-2C8F-49B6-8DE1-C54E0E39DD4E}">
+					<ChildrenList>
+						<Action Name="" ID="{BD39098C-FEBA-4F74-9679-226ACA3084AE}" ShortID="1010154483">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_sea_large" ID="{A04A714A-3071-4B81-AF17-657102CBA2FE}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_sea_small" ID="{F29A2389-E35F-4364-BA01-D3120FF944AF}">
+					<ChildrenList>
+						<Action Name="" ID="{048219E6-D624-4A14-9BD8-E8AF2751CECF}" ShortID="1035864557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_sea_small" ID="{F33F0E33-18CB-47A9-9C8A-DC4364803F68}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
