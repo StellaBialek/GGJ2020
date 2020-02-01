@@ -14,9 +14,7 @@
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2385628198" Name="footsteps" ObjectPath="\Events\Default Work Unit\footsteps" DurationType="OneShot" DurationMin="0.809648" DurationMax="1.099666"/>
-				<Event Id="4270401061" Name="obj_light_01" ObjectPath="\Events\Default Work Unit\obj_light_01" MaxAttenuation="2.000000" DurationType="Infinite"/>
-				<Event Id="4270401062" Name="obj_light_02" ObjectPath="\Events\Default Work Unit\obj_light_02" MaxAttenuation="2.000000" DurationType="Infinite"/>
-				<Event Id="4270401063" Name="obj_light_03" ObjectPath="\Events\Default Work Unit\obj_light_03" MaxAttenuation="2.000000" DurationType="Infinite"/>
+				<Event Id="4270401061" Name="obj_light_01" ObjectPath="\Events\Default Work Unit\obj_light_01" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="1108173695" Name="sfx_lock_fail" ObjectPath="\Events\Default Work Unit\sfx_lock_fail" DurationType="OneShot" DurationMin="3.692312" DurationMax="3.692333"/>
 				<Event Id="3674212506" Name="sfx_lock_far" ObjectPath="\Events\Default Work Unit\sfx_lock_far" DurationType="OneShot" DurationMin="4.537458" DurationMax="4.537458"/>
 				<Event Id="231259868" Name="sfx_lock_music" ObjectPath="\Events\Default Work Unit\sfx_lock_music" DurationType="OneShot" DurationMin="10.153812" DurationMax="10.153854"/>

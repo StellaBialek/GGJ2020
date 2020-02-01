@@ -31,21 +31,7 @@
       "Id": "4270401061",
       "Name": "obj_light_01",
       "ObjectPath": "\\Events\\Default Work Unit\\obj_light_01",
-      "MaxAttenuation": "2.000000",
-      "DurationType": "Infinite"
-     },
-     {
-      "Id": "4270401062",
-      "Name": "obj_light_02",
-      "ObjectPath": "\\Events\\Default Work Unit\\obj_light_02",
-      "MaxAttenuation": "2.000000",
-      "DurationType": "Infinite"
-     },
-     {
-      "Id": "4270401063",
-      "Name": "obj_light_03",
-      "ObjectPath": "\\Events\\Default Work Unit\\obj_light_03",
-      "MaxAttenuation": "2.000000",
+      "MaxAttenuation": "5.000000",
       "DurationType": "Infinite"
      },
      {

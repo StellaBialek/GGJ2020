@@ -160,7 +160,7 @@ MonoBehaviour:
       - ElementName: obj_light_01
         ObjectType: 3
       Path: Default Work Unit\obj_light_01
-      maxAttenuation: 2000000
+      maxAttenuation: 20000000
       maxDuration: -1
       minDuration: -1
     - name: obj_light_02
@@ -172,7 +172,7 @@ MonoBehaviour:
       - ElementName: obj_light_02
         ObjectType: 3
       Path: Default Work Unit\obj_light_02
-      maxAttenuation: 2000000
+      maxAttenuation: 20000000
       maxDuration: -1
       minDuration: -1
     - name: obj_light_03
@@ -184,7 +184,7 @@ MonoBehaviour:
       - ElementName: obj_light_03
         ObjectType: 3
       Path: Default Work Unit\obj_light_03
-      maxAttenuation: 2000000
+      maxAttenuation: 20000000
       maxDuration: -1
       minDuration: -1
     - name: sfx_lock_fail
@@ -321,5 +321,6 @@ MonoBehaviour:
   ExpandedItems:
   - /GlobalGameJam2020_WwiseProject
   - /GlobalGameJam2020_WwiseProject/Events
+  - /GlobalGameJam2020_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

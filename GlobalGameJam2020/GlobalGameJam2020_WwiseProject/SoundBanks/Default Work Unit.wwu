@@ -12,11 +12,9 @@
 				</SoundBank>
 				<SoundBank Name="SFX" ID="{3503C2AD-7E2B-406C-9C16-28B3430C2ED1}">
 					<ObjectInclusionList>
-						<ObjectRef Name="obj_light_02" ID="{4331A2D7-B785-41F6-AFDE-A734C1F36B2F}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="footsteps" ID="{74980104-A249-4352-9EF7-8E8E0639A047}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_lock_object_light" ID="{4861E8DB-79DF-43E6-9AE6-EDC80E17AE50}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_unlock_object_light" ID="{8CD6F346-83F2-44C0-9EE9-B0867A038580}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="obj_light_03" ID="{8131B174-5A20-452E-8980-026E04766ED7}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_unlock_music" ID="{7908CDF8-EF93-4585-95B7-27231C0EA795}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="obj_light_01" ID="{E8C96D30-B886-4714-9129-0EE0F8054959}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_lock_far" ID="{4D6665AF-F892-4772-9FA1-7D9AB5A3F5DD}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
