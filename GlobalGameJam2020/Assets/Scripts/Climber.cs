@@ -5,13 +5,7 @@ using UnityEngine;
 public class Climber : MonoBehaviour
 {
     public float ClimbingSpeed = 1f;
-    public bool IsClimbing 
-    { 
-        get 
-        { 
-            return climbables.Count > 0; 
-        } 
-    }
+    public bool IsClimbing { get { return climbables.Count > 0; } }
 
     public Vector3 Forward
     {
