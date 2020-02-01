@@ -8,22 +8,43 @@ public class TimeTravelObject : MonoBehaviour
     public float Radius = 1f;
     public AnimationCurve Affection;
     public bool IsAffected { get { return affectors.Count > 0; } }
+    public bool IsLocked
+    {
+        get
+        {
+            if (affectors.Count > 0)
+            {
+                foreach(TimeTravelAffector affector in affectors)
+                {
+                    Helper helper = affector.GetComponent<Helper>();
+                    if(helper && helper.Target == transform)
+                    {
+                        return true;
+                    }
+                }
+            }
+            else
+            {
+                return false;
+            }
+            return false;
+        }
+    }
 
     public float AffectionLevel
     {
         get
         {
-            float result = 0f;
+            float affection = 0f;
             if(affectors.Count > 0)
             {
                 foreach (TimeTravelAffector affector in affectors)
                 {
                     float distance = Vector3.Distance(affector.transform.position, transform.position);
-                    result += Affection.Evaluate(1f - (distance / Radius));
+                    affection = Mathf.Max(affection, Affection.Evaluate(1f - (distance / Radius)));
                 }
-                result /= affectors.Count;
             }
-            return result;
+            return affection;
         }
     }
 
@@ -55,6 +76,7 @@ public class TimeTravelObject : MonoBehaviour
         if (affector)
         {
             AddAffector(affector);
+            affector.AddAvailableObject(this);
         }
     }
 
@@ -64,6 +86,7 @@ public class TimeTravelObject : MonoBehaviour
         if (affector)
         {
             RemoveAffector(affector);
+            affector.RemoveAvailableObject(this);
         }
     }
 }
