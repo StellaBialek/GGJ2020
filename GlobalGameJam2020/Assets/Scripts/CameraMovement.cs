@@ -9,7 +9,6 @@ public class CameraMovement : MonoBehaviour
     public bool InvertX = false;
     public bool InvertY = false;
     public bool InvertZ = false;
-    public bool ActivateOnDrag = false;
 
     public float InitialX = 0;
     public float InitialY = 20;
@@ -58,14 +57,19 @@ public class CameraMovement : MonoBehaviour
 
     public void Update()
     {
-        if (!Input.GetButton("Camera Drag") && ActivateOnDrag)
+        bool joystickMovement = Mathf.Abs(Input.GetAxis("Camera Active")) >= 0.01f;
+        bool mouseDown = Input.GetButton("Camera Active");
+
+        if (!(mouseDown || joystickMovement))
         {
             axisX.Active = false;
-            axisY.Active = false;
+            axisY.Active = false;;
         }
 
-        foreach (AxisSpeed axis in directions)
+        foreach(AxisSpeed axis in directions)
+        {
             axis.Update();
+        }
 
         x += axisX.Current * Time.deltaTime;
 
@@ -75,7 +79,7 @@ public class CameraMovement : MonoBehaviour
         z -= axisZ.Current * Time.deltaTime;
         z = Mathf.Clamp(z, MinZ, MaxZ);
 
-        Vector3 offset = Vector3.forward; //TODO: maybe replace with player forward
+        Vector3 offset = Vector3.forward;
         offset = Quaternion.AngleAxis(x, Vector3.up) * offset;
         offset = Quaternion.AngleAxis(y, Vector3.Cross(offset, Vector3.up)) * offset;
 
