@@ -14,9 +14,24 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="obj_light_02" ID="{4331A2D7-B785-41F6-AFDE-A734C1F36B2F}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="footsteps" ID="{74980104-A249-4352-9EF7-8E8E0639A047}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_lock_object_light" ID="{4861E8DB-79DF-43E6-9AE6-EDC80E17AE50}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_unlock_object_light" ID="{8CD6F346-83F2-44C0-9EE9-B0867A038580}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="obj_light_03" ID="{8131B174-5A20-452E-8980-026E04766ED7}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_unlock_music" ID="{7908CDF8-EF93-4585-95B7-27231C0EA795}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="obj_light_01" ID="{E8C96D30-B886-4714-9129-0EE0F8054959}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_lock_far" ID="{4D6665AF-F892-4772-9FA1-7D9AB5A3F5DD}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_lock_music" ID="{FE3A203B-750D-4854-8E54-6E47DC6C7826}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_lock_fail" ID="{0747B55A-31F9-48E5-8566-9BAB54DE27AB}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience" ID="{F271B5A7-1841-4227-A98F-CDFF3BF5A810}">
+					<ObjectInclusionList>
+						<ObjectRef Name="amb_sea" ID="{7CF62661-81C6-4919-95EE-72DF903F1267}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_waterfall_big" ID="{86734F83-8C57-4A12-9610-72BF27746B25}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_waterfall_small" ID="{880586A5-E9AD-4A21-A96E-11647CF47834}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_creeking" ID="{255B3689-5906-4FDE-A09F-7795A2C4E0B1}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
