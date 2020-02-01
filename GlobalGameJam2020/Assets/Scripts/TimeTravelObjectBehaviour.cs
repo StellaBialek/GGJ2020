@@ -4,25 +4,44 @@ using UnityEngine;
 
 public class TimeTravelObjectBehaviour : MonoBehaviour
 {
-    public Color Present;
-    public Color Past;
+    public TimeTravelObject[] AdditionalRequiredTimeTravelObjects = { };
+    public float Smooth = 5;
 
-    public TimeTravelObject Parent;
-
-    private MeshRenderer meshRenderer;
-
-    public void Start()
+    public float AffectionLevel
     {
-        meshRenderer = GetComponent<MeshRenderer>();
+        get
+        {
+            float affectionLevel = Parent.AffectionLevel;
+            foreach (TimeTravelObject requiredTimeTravelObject in AdditionalRequiredTimeTravelObjects)
+            {
+                affectionLevel *= requiredTimeTravelObject.AffectionLevel;
+            }
+            return affectionLevel;
+        }
     }
 
-
-    void Update()
+    public bool AdditonalRequirementsFullfilled
     {
-        MaterialPropertyBlock mpb = new MaterialPropertyBlock();
-        meshRenderer.GetPropertyBlock(mpb);
-        Color color = Color.Lerp(Present, Past, Parent.AffectionLevel);
-        mpb.SetColor("_Color", color);
-        meshRenderer.SetPropertyBlock(mpb);
+        get
+        {
+            if (AdditionalRequiredTimeTravelObjects.Length == 0)
+                return true;
+            bool fullfilled = true;
+            foreach(TimeTravelObject requiredTimeTravelObject in AdditionalRequiredTimeTravelObjects)
+            {
+                fullfilled = fullfilled && requiredTimeTravelObject.AffectionLevel > 0.9f;
+            }
+            return fullfilled;
+        }
     }
+    public TimeTravelObject Parent { get; set; }
+
+    public void UpdateAffectionLevel()
+    {
+        CurrentAffectionLevel = Mathf.Lerp(LastAffectionLevel, AffectionLevel, Time.deltaTime * Smooth);
+        LastAffectionLevel = CurrentAffectionLevel;
+    }
+
+    protected float CurrentAffectionLevel;
+    protected float LastAffectionLevel;
 }
