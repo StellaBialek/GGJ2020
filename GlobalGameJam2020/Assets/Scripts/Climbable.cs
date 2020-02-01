@@ -10,7 +10,7 @@ public class Climbable : MonoBehaviour
         Climber climbing = other.gameObject.GetComponent<Climber>();
         if(climbing)
         {
-            climbing.AddClimbable();
+            climbing.AddClimbable(this);
         }
     }
 
@@ -19,7 +19,7 @@ public class Climbable : MonoBehaviour
         Climber climbing = other.gameObject.GetComponent<Climber>();
         if (climbing)
         {
-            climbing.RemoveClimbable();
+            climbing.RemoveClimbable(this);
         }
     }
 }

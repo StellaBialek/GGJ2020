@@ -39,7 +39,6 @@ public class CameraMovement : MonoBehaviour
 
     private Transform target;
 
-
     public void Start()
     {
         target = FindObjectOfType<PlayerMovement>().transform;

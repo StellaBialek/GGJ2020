@@ -54,6 +54,8 @@ public class PlayerMovement : MonoBehaviour
         Vector3 forwardForce = forward * forwardSpeed.Value * MaxSpeed;
         Vector3 sidewaysForce = sideways * sidewaysSpeed.Value * MaxSpeed;
 
+        Vector3 viewDirection = transform.forward;
+
         if (c.IsClimbing)
         {
             float climbingSpeed = forwardSpeed.Value * MaxSpeed * c.ClimbingSpeed;
@@ -63,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
                 force += forwardForce;
             }
             rb.velocity = new Vector3(force.x, climbingSpeed, force.z);
+            viewDirection = c.Forward;
         }
         else
         {
@@ -71,14 +74,16 @@ public class PlayerMovement : MonoBehaviour
 
             if (force.magnitude > 0.001)
             {
-                Vector3 viewDirection = -Vector3.Normalize(force);
+                 
+               viewDirection = -Vector3.Normalize(force);
                 if (Vector3.Dot(transform.forward, viewDirection) <= -0.999f)
                 {
                     viewDirection = Vector3.Cross(Vector3.up, viewDirection);
                 }
-                transform.forward = Vector3.Lerp(transform.forward, viewDirection, Time.fixedDeltaTime * TurnSpeed);
             }
+
             rb.AddForce(Physics.gravity * (rb.mass * rb.mass));
         }
+        transform.forward = Vector3.Lerp(transform.forward, viewDirection, Time.fixedDeltaTime * TurnSpeed);
     }
 }
