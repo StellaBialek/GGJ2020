@@ -14,6 +14,6 @@ public class TimeTravelObjectLightBehaviour : TimeTravelObjectBehaviour
 
     public void Update()
     {
-        lightsource.range = Mathf.Lerp(lightsource.range, Parent.IsLocked ? 3 : 0, Smooth * Time.deltaTime); 
+        lightsource.intensity = Mathf.Lerp(lightsource.intensity, Parent.IsLocked ? 1 : 0, Smooth * Time.deltaTime); 
     }
 }
