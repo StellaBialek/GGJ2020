@@ -5,22 +5,32 @@ using UnityEngine;
 public class Climber : MonoBehaviour
 {
     public float ClimbingSpeed = 1f;
-    public bool IsClimbing 
-    { 
-        get 
-        { 
-            return numClimbables > 0; 
-        } 
-    }
-    private int numClimbables = 0;
+    public bool IsClimbing { get { return climbables.Count > 0; } }
 
-    public void AddClimbable()
+    public Vector3 Forward
     {
-        numClimbables++;
+        get
+        {
+            Vector3 forward = Vector3.zero;
+            foreach(var c in climbables)
+            {
+                Vector3 dir = transform.position - c.transform.position;
+                dir.y = 0;
+                forward += Vector3.Normalize(dir);
+            }
+            return Vector3.Normalize(forward);
+        }
+    }
+
+    private List<Climbable> climbables = new List<Climbable>();
+
+    public void AddClimbable(Climbable c)
+    {
+        climbables.Add(c);
     }
     
-    public void RemoveClimbable()
+    public void RemoveClimbable(Climbable c)
     {
-        numClimbables--;
+        climbables.Remove(c);
     }
 }

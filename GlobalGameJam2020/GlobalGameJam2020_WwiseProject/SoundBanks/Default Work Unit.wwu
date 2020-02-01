@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8776EDD0-6274-480C-BBEE-57A668A035DF}" SchemaVersion="94">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{8776EDD0-6274-480C-BBEE-57A668A035DF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8776EDD0-6274-480C-BBEE-57A668A035DF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Music" ID="{113DF967-2884-4D6B-AA6E-A96AD6A48785}">
+					<ObjectInclusionList>
+						<ObjectRef Name="music" ID="{CBE39DB2-0E0D-4FA6-8D79-FFE0D491FCF5}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{3503C2AD-7E2B-406C-9C16-28B3430C2ED1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="footsteps" ID="{74980104-A249-4352-9EF7-8E8E0639A047}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_lock_music" ID="{FE3A203B-750D-4854-8E54-6E47DC6C7826}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
