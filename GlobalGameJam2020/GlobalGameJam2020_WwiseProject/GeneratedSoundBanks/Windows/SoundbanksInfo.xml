@@ -17,18 +17,19 @@
 			<Path>Ambience.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1807168230" Name="amb_creeking" ObjectPath="\Events\Default Work Unit\amb_creeking" MaxAttenuation="15.000000" DurationType="Infinite"/>
-				<Event Id="3652298359" Name="amb_sea" ObjectPath="\Events\Default Work Unit\amb_sea" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="68.500000" DurationMax="68.500000"/>
+				<Event Id="3176462019" Name="amb_sea_large" ObjectPath="\Events\Default Work Unit\amb_sea_large" MaxAttenuation="100.000000" DurationType="Infinite"/>
+				<Event Id="3797707855" Name="amb_sea_small" ObjectPath="\Events\Default Work Unit\amb_sea_small" MaxAttenuation="10.000000" DurationType="Infinite"/>
 				<Event Id="2816987279" Name="amb_waterfall_big" ObjectPath="\Events\Default Work Unit\amb_waterfall_big" MaxAttenuation="20.000000" DurationType="Infinite"/>
 				<Event Id="1798629568" Name="amb_waterfall_small" ObjectPath="\Events\Default Work Unit\amb_waterfall_small" MaxAttenuation="15.000000" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="233966967" Language="SFX">
+					<ShortName>amb_sea_small.wav</ShortName>
+					<Path>SFX\amb_sea_small_D79FB2B7.wem</Path>
+				</File>
 				<File Id="367782762" Language="SFX">
 					<ShortName>amb_creeking.wav</ShortName>
 					<Path>SFX\amb_creeking_D79FB2B7.wem</Path>
-				</File>
-				<File Id="423798247" Language="SFX">
-					<ShortName>amb_sea.wav</ShortName>
-					<Path>SFX\amb_sea_10C4C929.wem</Path>
 				</File>
 				<File Id="543235144" Language="SFX">
 					<ShortName>amb_waterfall_big.wav</ShortName>
@@ -37,6 +38,10 @@
 				<File Id="801914054" Language="SFX">
 					<ShortName>amb_waterfall_small.wav</ShortName>
 					<Path>SFX\amb_waterfall_small_D79FB2B7.wem</Path>
+				</File>
+				<File Id="894953627" Language="SFX">
+					<ShortName>amb_sea_large.wav</ShortName>
+					<Path>SFX\amb_sea_large_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: d0ed768774620c48bbee57a668a035df
     GuidInternal: 
-    m_lastTime: -8586210365780600032
+    m_lastTime: -8586210176791668347
     List:
     - name: Ambience
       guid: a7b571f241182742a98fcdff3bf5a810
@@ -65,7 +65,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 61c97b306c3ae54f9f1eda90242b8cb7
     GuidInternal: 
-    m_lastTime: -8586210365831191724
+    m_lastTime: -8586210181693326435
     List:
     - name: amb_creeking
       guid: 89365b250659de4fa09f7795a2c4e0b1
@@ -77,18 +77,30 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\amb_creeking
       maxAttenuation: 15000000
-      maxDuration: 65461984
-      minDuration: 65461984
-    - name: amb_sea
-      guid: 6126f67cc681194995ee72df903f1267
-      id: 3652298359
+      maxDuration: -1
+      minDuration: -1
+    - name: amb_sea_large
+      guid: 65c25cac8f2cb6498de1c54e0e39dd4e
+      id: 3176462019
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: amb_sea
+      - ElementName: amb_sea_large
         ObjectType: 3
-      Path: Default Work Unit\amb_sea
+      Path: Default Work Unit\amb_sea_large
       maxAttenuation: 100000000
+      maxDuration: 24923084
+      minDuration: 24923084
+    - name: amb_sea_small
+      guid: 89239af25fe36443ba01d3120ff944af
+      id: 3797707855
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: amb_sea_small
+        ObjectType: 3
+      Path: Default Work Unit\amb_sea_small
+      maxAttenuation: 10000000
       maxDuration: 68500000
       minDuration: 68500000
     - name: amb_waterfall_big
@@ -101,8 +113,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\amb_waterfall_big
       maxAttenuation: 20000000
-      maxDuration: 24923084
-      minDuration: 24923084
+      maxDuration: -1
+      minDuration: -1
     - name: amb_waterfall_small
       guid: a5860588ade9214aa96e11647cf47834
       id: 1798629568
@@ -113,8 +125,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\amb_waterfall_small
       maxAttenuation: 15000000
-      maxDuration: 30923084
-      minDuration: 30923084
+      maxDuration: -1
+      minDuration: -1
     - name: footsteps
       guid: 0401987449a252439ef78e8e0639a047
       id: 2385628198
@@ -309,6 +321,5 @@ MonoBehaviour:
   ExpandedItems:
   - /GlobalGameJam2020_WwiseProject
   - /GlobalGameJam2020_WwiseProject/Events
-  - /GlobalGameJam2020_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

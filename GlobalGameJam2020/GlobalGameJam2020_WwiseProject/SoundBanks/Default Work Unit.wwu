@@ -28,7 +28,8 @@
 				</SoundBank>
 				<SoundBank Name="Ambience" ID="{F271B5A7-1841-4227-A98F-CDFF3BF5A810}">
 					<ObjectInclusionList>
-						<ObjectRef Name="amb_sea" ID="{7CF62661-81C6-4919-95EE-72DF903F1267}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_sea_small" ID="{F29A2389-E35F-4364-BA01-D3120FF944AF}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_sea_large" ID="{AC5CC265-2C8F-49B6-8DE1-C54E0E39DD4E}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="amb_waterfall_big" ID="{86734F83-8C57-4A12-9610-72BF27746B25}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="amb_waterfall_small" ID="{880586A5-E9AD-4A21-A96E-11647CF47834}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="amb_creeking" ID="{255B3689-5906-4FDE-A09F-7795A2C4E0B1}" WorkUnitID="{307BC961-3A6C-4FE5-9F1E-DA90242B8CB7}" Filter="7" Origin="Manual"/>

@@ -14,7 +14,8 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB_CREEKING = 1807168230U;
-        static const AkUniqueID AMB_SEA = 3652298359U;
+        static const AkUniqueID AMB_SEA_LARGE = 3176462019U;
+        static const AkUniqueID AMB_SEA_SMALL = 3797707855U;
         static const AkUniqueID AMB_WATERFALL_BIG = 2816987279U;
         static const AkUniqueID AMB_WATERFALL_SMALL = 1798629568U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;

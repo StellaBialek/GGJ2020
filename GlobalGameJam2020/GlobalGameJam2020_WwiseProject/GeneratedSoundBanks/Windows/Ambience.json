@@ -1,0 +1,93 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "11",
+  "SoundbankVersion": "134",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\PC\\Documents\\GitHub\\GGJ2020\\GlobalGameJam2020\\GlobalGameJam2020_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\PC\\Documents\\GitHub\\GGJ2020\\GlobalGameJam2020\\GlobalGameJam2020_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\PC\\Documents\\GitHub\\GGJ2020\\GlobalGameJam2020\\GlobalGameJam2020_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\PC\\Documents\\GitHub\\GGJ2020\\GlobalGameJam2020\\GlobalGameJam2020_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "85412153",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
+    "ShortName": "Ambience",
+    "Path": "Ambience.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1807168230",
+      "Name": "amb_creeking",
+      "ObjectPath": "\\Events\\Default Work Unit\\amb_creeking",
+      "MaxAttenuation": "15.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3176462019",
+      "Name": "amb_sea_large",
+      "ObjectPath": "\\Events\\Default Work Unit\\amb_sea_large",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3797707855",
+      "Name": "amb_sea_small",
+      "ObjectPath": "\\Events\\Default Work Unit\\amb_sea_small",
+      "MaxAttenuation": "10.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "2816987279",
+      "Name": "amb_waterfall_big",
+      "ObjectPath": "\\Events\\Default Work Unit\\amb_waterfall_big",
+      "MaxAttenuation": "20.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "1798629568",
+      "Name": "amb_waterfall_small",
+      "ObjectPath": "\\Events\\Default Work Unit\\amb_waterfall_small",
+      "MaxAttenuation": "15.000000",
+      "DurationType": "Infinite"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "233966967",
+      "Language": "SFX",
+      "ShortName": "amb_sea_small.wav",
+      "Path": "SFX\\amb_sea_small_D79FB2B7.wem"
+     },
+     {
+      "Id": "367782762",
+      "Language": "SFX",
+      "ShortName": "amb_creeking.wav",
+      "Path": "SFX\\amb_creeking_D79FB2B7.wem"
+     },
+     {
+      "Id": "543235144",
+      "Language": "SFX",
+      "ShortName": "amb_waterfall_big.wav",
+      "Path": "SFX\\amb_waterfall_big_D79FB2B7.wem"
+     },
+     {
+      "Id": "801914054",
+      "Language": "SFX",
+      "ShortName": "amb_waterfall_small.wav",
+      "Path": "SFX\\amb_waterfall_small_D79FB2B7.wem"
+     },
+     {
+      "Id": "894953627",
+      "Language": "SFX",
+      "ShortName": "amb_sea_large.wav",
+      "Path": "SFX\\amb_sea_large_D79FB2B7.wem"
+     }
+    ]
+   }
+  ]
+ }
+}

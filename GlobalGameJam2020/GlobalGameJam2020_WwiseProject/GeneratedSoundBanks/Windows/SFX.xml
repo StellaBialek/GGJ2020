@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2385628198" Name="footsteps" ObjectPath="\Events\Default Work Unit\footsteps" DurationType="OneShot" DurationMin="0.809648" DurationMax="1.099666"/>
+				<Event Id="4270401061" Name="obj_light_01" ObjectPath="\Events\Default Work Unit\obj_light_01" MaxAttenuation="2.000000" DurationType="Infinite"/>
+				<Event Id="4270401062" Name="obj_light_02" ObjectPath="\Events\Default Work Unit\obj_light_02" MaxAttenuation="2.000000" DurationType="Infinite"/>
+				<Event Id="4270401063" Name="obj_light_03" ObjectPath="\Events\Default Work Unit\obj_light_03" MaxAttenuation="2.000000" DurationType="Infinite"/>
+				<Event Id="1108173695" Name="sfx_lock_fail" ObjectPath="\Events\Default Work Unit\sfx_lock_fail" DurationType="OneShot" DurationMin="3.692312" DurationMax="3.692333"/>
+				<Event Id="3674212506" Name="sfx_lock_far" ObjectPath="\Events\Default Work Unit\sfx_lock_far" DurationType="OneShot" DurationMin="4.537458" DurationMax="4.537458"/>
+				<Event Id="231259868" Name="sfx_lock_music" ObjectPath="\Events\Default Work Unit\sfx_lock_music" DurationType="OneShot" DurationMin="10.153812" DurationMax="10.153854"/>
+				<Event Id="4253724739" Name="sfx_lock_object_light" ObjectPath="\Events\Default Work Unit\sfx_lock_object_light" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="8.307709" DurationMax="8.307709"/>
+				<Event Id="818588841" Name="sfx_unlock_music" ObjectPath="\Events\Default Work Unit\sfx_unlock_music" DurationType="OneShot" DurationMin="3.245479" DurationMax="3.245479"/>
+				<Event Id="3934442988" Name="sfx_unlock_object_light" ObjectPath="\Events\Default Work Unit\sfx_unlock_object_light" DurationType="OneShot" DurationMin="3.245479" DurationMax="3.245479"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="160290194" Language="SFX">
+					<ShortName>sfx_lock_fail_02.wav</ShortName>
+					<Path>SFX\sfx_lock_fail_02_10C4C929.wem</Path>
+				</File>
+				<File Id="164254736" Language="SFX">
+					<ShortName>sfx_lock_object_light.wav</ShortName>
+					<Path>SFX\sfx_lock_object_light_10C4C929.wem</Path>
+				</File>
+				<File Id="192069659" Language="SFX">
+					<ShortName>sfx_lock_03.wav</ShortName>
+					<Path>SFX\sfx_lock_03_10C4C929.wem</Path>
+				</File>
+				<File Id="234685809" Language="SFX">
+					<ShortName>sfx_lock_01.wav</ShortName>
+					<Path>SFX\sfx_lock_01_10C4C929.wem</Path>
+				</File>
+				<File Id="252804403" Language="SFX">
+					<ShortName>fs_concrete_02.wav</ShortName>
+					<Path>SFX\fs_concrete_02_10C4C929.wem</Path>
+				</File>
+				<File Id="321300678" Language="SFX">
+					<ShortName>fs_wood_01.wav</ShortName>
+					<Path>SFX\fs_wood_01_10C4C929.wem</Path>
+				</File>
+				<File Id="335967248" Language="SFX">
+					<ShortName>sfx_lock_05.wav</ShortName>
+					<Path>SFX\sfx_lock_05_10C4C929.wem</Path>
+				</File>
+				<File Id="364601629" Language="SFX">
+					<ShortName>fs_water_03.wav</ShortName>
+					<Path>SFX\fs_water_03_10C4C929.wem</Path>
+				</File>
+				<File Id="369667421" Language="SFX">
+					<ShortName>fs_water_05.wav</ShortName>
+					<Path>SFX\fs_water_05_10C4C929.wem</Path>
+				</File>
+				<File Id="391339642" Language="SFX">
+					<ShortName>sfx_lock_fail_01.wav</ShortName>
+					<Path>SFX\sfx_lock_fail_01_10C4C929.wem</Path>
+				</File>
+				<File Id="422392350" Language="SFX">
+					<ShortName>obj_light_01.wav</ShortName>
+					<Path>SFX\obj_light_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="455736607" Language="SFX">
+					<ShortName>sfx_unlock.wav</ShortName>
+					<Path>SFX\sfx_unlock_10C4C929.wem</Path>
+				</File>
+				<File Id="542092002" Language="SFX">
+					<ShortName>fs_wood_03.wav</ShortName>
+					<Path>SFX\fs_wood_03_10C4C929.wem</Path>
+				</File>
+				<File Id="550533767" Language="SFX">
+					<ShortName>fs_wood_05.wav</ShortName>
+					<Path>SFX\fs_wood_05_10C4C929.wem</Path>
+				</File>
+				<File Id="561855453" Language="SFX">
+					<ShortName>obj_light_03.wav</ShortName>
+					<Path>SFX\obj_light_03_D79FB2B7.wem</Path>
+				</File>
+				<File Id="597261913" Language="SFX">
+					<ShortName>fs_concrete_03.wav</ShortName>
+					<Path>SFX\fs_concrete_03_10C4C929.wem</Path>
+				</File>
+				<File Id="604705813" Language="SFX">
+					<ShortName>sfx_lock_far.wav</ShortName>
+					<Path>SFX\sfx_lock_far_10C4C929.wem</Path>
+				</File>
+				<File Id="625712934" Language="SFX">
+					<ShortName>fs_water_02.wav</ShortName>
+					<Path>SFX\fs_water_02_10C4C929.wem</Path>
+				</File>
+				<File Id="634939856" Language="SFX">
+					<ShortName>fs_water_01.wav</ShortName>
+					<Path>SFX\fs_water_01_10C4C929.wem</Path>
+				</File>
+				<File Id="638725821" Language="SFX">
+					<ShortName>fs_concrete_01.wav</ShortName>
+					<Path>SFX\fs_concrete_01_10C4C929.wem</Path>
+				</File>
+				<File Id="674746024" Language="SFX">
+					<ShortName>sfx_unlock_object_light.wav</ShortName>
+					<Path>SFX\sfx_unlock_object_light_10C4C929.wem</Path>
+				</File>
+				<File Id="697919561" Language="SFX">
+					<ShortName>sfx_lock_04.wav</ShortName>
+					<Path>SFX\sfx_lock_04_10C4C929.wem</Path>
+				</File>
+				<File Id="739657569" Language="SFX">
+					<ShortName>sfx_lock_fail_03.wav</ShortName>
+					<Path>SFX\sfx_lock_fail_03_10C4C929.wem</Path>
+				</File>
+				<File Id="777219501" Language="SFX">
+					<ShortName>fs_water_04.wav</ShortName>
+					<Path>SFX\fs_water_04_10C4C929.wem</Path>
+				</File>
+				<File Id="830317089" Language="SFX">
+					<ShortName>fs_wood_04.wav</ShortName>
+					<Path>SFX\fs_wood_04_10C4C929.wem</Path>
+				</File>
+				<File Id="931761554" Language="SFX">
+					<ShortName>fs_concrete_04.wav</ShortName>
+					<Path>SFX\fs_concrete_04_10C4C929.wem</Path>
+				</File>
+				<File Id="1017889731" Language="SFX">
+					<ShortName>fs_concrete_05.wav</ShortName>
+					<Path>SFX\fs_concrete_05_10C4C929.wem</Path>
+				</File>
+				<File Id="1026091913" Language="SFX">
+					<ShortName>sfx_lock_fail_04.wav</ShortName>
+					<Path>SFX\sfx_lock_fail_04_10C4C929.wem</Path>
+				</File>
+				<File Id="1044075460" Language="SFX">
+					<ShortName>fs_wood_02.wav</ShortName>
+					<Path>SFX\fs_wood_02_10C4C929.wem</Path>
+				</File>
+				<File Id="1052868354" Language="SFX">
+					<ShortName>sfx_lock_02.wav</ShortName>
+					<Path>SFX\sfx_lock_02_10C4C929.wem</Path>
+				</File>
+				<File Id="1069690982" Language="SFX">
+					<ShortName>obj_light_02.wav</ShortName>
+					<Path>SFX\obj_light_02_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
