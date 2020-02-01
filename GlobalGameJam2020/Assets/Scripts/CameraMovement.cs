@@ -40,43 +40,6 @@ public class CameraMovement : MonoBehaviour
     private AxisSpeed axisZ;
     private List<AxisSpeed> directions;
 
-    private class AxisSpeed
-    {
-        public string Name;
-        public float Current;
-        public float Max;
-        public float Buildup;
-        public float Falloff;
-        public bool Inverted;
-
-        public bool Active = true;
-
-        public AxisSpeed(string name, float max, float buildup, float falloff, bool inverted)
-        {
-            Name = name;
-            Max = max;
-            Buildup = buildup;
-            Falloff = falloff;
-            Inverted = inverted;
-            Current = 0;
-        }
-
-        public void Update()
-        {
-            if (Active)
-            {
-                float delta = Max * Buildup * Input.GetAxis(Name) * (Inverted ? -1f : 1f);
-                Current = Mathf.Clamp(Current + delta, -Max, Max);
-            }
-            Active = true;
-        }
-
-        public void ApplyFalloff()
-        {
-            Current = Mathf.Lerp(Current, 0, Time.deltaTime * Falloff);
-        }
-    }
-
     public void Start()
     {
         x = InitialX;
@@ -118,13 +81,5 @@ public class CameraMovement : MonoBehaviour
 
         transform.position = Target.position + offset * z;
         transform.LookAt(Target);
-
-        foreach (AxisSpeed axis in directions)
-            axis.ApplyFalloff();
-    } 
-
-    private float GetInput(string axisName, float maxspeed, float buildup, bool invert)
-    {
-        return maxspeed * buildup * Input.GetAxis(axisName) * (invert ? -1f : 1f);
     }
 }
