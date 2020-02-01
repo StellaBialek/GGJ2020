@@ -455,17 +455,17 @@ PrefabInstance:
     - target: {fileID: 824524812542500555, guid: 46480199e43af694cbb2b53e66763a35,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 689.15
+      value: 689.42
       objectReference: {fileID: 0}
     - target: {fileID: 824524812542500555, guid: 46480199e43af694cbb2b53e66763a35,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.14
+      value: 32.06
       objectReference: {fileID: 0}
     - target: {fileID: 824524812542500555, guid: 46480199e43af694cbb2b53e66763a35,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 583.2
+      value: 585.42
       objectReference: {fileID: 0}
     - target: {fileID: 824524812542500555, guid: 46480199e43af694cbb2b53e66763a35,
         type: 3}
@@ -1581,10 +1581,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1916514020452805909, guid: e5d53f4259f687243b7626ab65247385,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916514020452805909, guid: e5d53f4259f687243b7626ab65247385,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.00877113
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916514020452805909, guid: e5d53f4259f687243b7626ab65247385,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1924929197420954507, guid: e5d53f4259f687243b7626ab65247385,
         type: 3}
       propertyPath: m_Name
       value: ShipSituation (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924929197420954507, guid: e5d53f4259f687243b7626ab65247385,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1924929197420954516, guid: e5d53f4259f687243b7626ab65247385,
         type: 3}
@@ -1646,7 +1666,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Barrel
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1916514020452805909, guid: e5d53f4259f687243b7626ab65247385, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e5d53f4259f687243b7626ab65247385, type: 3}
 --- !u!1 &1050511189 stripped
 GameObject:
@@ -1662,10 +1683,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050511189}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.004, y: 0.005017239, z: 0.01}
+  m_Size: {x: 0.004, y: 0.005017239, z: 0.015}
   m_Center: {x: 0.0000747755, y: -0.00007982391, z: 0.000059941933}
 --- !u!54 &1050511191
 Rigidbody:
@@ -1681,7 +1702,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!114 &1050511192
 MonoBehaviour:

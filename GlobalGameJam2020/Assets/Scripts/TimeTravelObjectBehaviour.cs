@@ -7,7 +7,7 @@ public class TimeTravelObjectBehaviour : MonoBehaviour
     public TimeTravelObject[] AdditionalRequiredTimeTravelObjects = { };
     public float Smooth = 5;
 
-    public float AffectionLevel
+    public virtual float AffectionLevel
     {
         get
         {
