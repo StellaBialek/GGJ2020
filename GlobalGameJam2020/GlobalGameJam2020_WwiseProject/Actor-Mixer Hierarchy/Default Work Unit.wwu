@@ -608,6 +608,84 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<ActorMixer Name="Lights" ID="{3A94888C-6CD9-490C-91B0-41D637423221}" ShortID="531934302">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Lights" ID="{C82B9354-D5A0-4995-8EF1-AB1937F51639}" WorkUnitID="{0E022FAE-FE62-4640-843C-4B716C5C2B97}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="obj_light_01" ID="{B2727AE2-F178-4C8B-AF4E-AE5235DCD122}" ShortID="813953513">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="obj_light_01" ID="{65778839-4FA7-4F08-9A5F-7886755CFFA2}" ShortID="422392350">
+									<Language>SFX</Language>
+									<AudioFile>obj_light_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="obj_light_01" ID="{65778839-4FA7-4F08-9A5F-7886755CFFA2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="obj_light_02" ID="{F2ED7676-E03B-41DD-9AF4-0B2C1FDFA9FB}" ShortID="103134377">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="obj_light_02" ID="{FF2EA9D5-1568-41B0-AB4F-E2F09F982A23}" ShortID="1069690982">
+									<Language>SFX</Language>
+									<AudioFile>obj_light_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="obj_light_02" ID="{FF2EA9D5-1568-41B0-AB4F-E2F09F982A23}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="obj_light_03" ID="{23059C7A-F8E6-4C2B-988F-F6EAA8A33B01}" ShortID="988924311">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80635BFB-E876-498C-9624-AF8FE10139C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="obj_light_03" ID="{C71A8AE4-BEF4-44E9-A859-FAC5D3D9A952}" ShortID="561855453">
+									<Language>SFX</Language>
+									<AudioFile>obj_light_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="obj_light_03" ID="{C71A8AE4-BEF4-44E9-A859-FAC5D3D9A952}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{33AC53C0-FC74-4E00-B70C-0B2CD979AB0C}"/>
+					</PositioningInfo>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

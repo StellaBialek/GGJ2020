@@ -15,6 +15,9 @@ namespace AK
     {
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID OBJ_LIGHT_01 = 4270401061U;
+        static const AkUniqueID OBJ_LIGHT_02 = 4270401062U;
+        static const AkUniqueID OBJ_LIGHT_03 = 4270401063U;
         static const AkUniqueID SFX_LOCK_MUSIC = 231259868U;
     } // namespace EVENTS
 
