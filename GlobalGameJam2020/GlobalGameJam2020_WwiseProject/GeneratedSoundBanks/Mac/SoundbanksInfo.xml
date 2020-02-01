@@ -16,15 +16,15 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1807168230" Name="amb_creeking" ObjectPath="\Events\Default Work Unit\amb_creeking" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="65.461983" DurationMax="65.461983"/>
+				<Event Id="1807168230" Name="amb_creeking" ObjectPath="\Events\Default Work Unit\amb_creeking" MaxAttenuation="15.000000" DurationType="Infinite"/>
 				<Event Id="3652298359" Name="amb_sea" ObjectPath="\Events\Default Work Unit\amb_sea" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="68.500000" DurationMax="68.500000"/>
-				<Event Id="2816987279" Name="amb_waterfall_big" ObjectPath="\Events\Default Work Unit\amb_waterfall_big" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="24.923084" DurationMax="24.923084"/>
-				<Event Id="1798629568" Name="amb_waterfall_small" ObjectPath="\Events\Default Work Unit\amb_waterfall_small" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="30.923084" DurationMax="30.923084"/>
+				<Event Id="2816987279" Name="amb_waterfall_big" ObjectPath="\Events\Default Work Unit\amb_waterfall_big" MaxAttenuation="20.000000" DurationType="Infinite"/>
+				<Event Id="1798629568" Name="amb_waterfall_small" ObjectPath="\Events\Default Work Unit\amb_waterfall_small" MaxAttenuation="15.000000" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="367782762" Language="SFX">
 					<ShortName>amb_creeking.wav</ShortName>
-					<Path>SFX\amb_creeking_10C4C929.wem</Path>
+					<Path>SFX\amb_creeking_D79FB2B7.wem</Path>
 				</File>
 				<File Id="423798247" Language="SFX">
 					<ShortName>amb_sea.wav</ShortName>
@@ -32,11 +32,11 @@
 				</File>
 				<File Id="543235144" Language="SFX">
 					<ShortName>amb_waterfall_big.wav</ShortName>
-					<Path>SFX\amb_waterfall_big_10C4C929.wem</Path>
+					<Path>SFX\amb_waterfall_big_D79FB2B7.wem</Path>
 				</File>
 				<File Id="801914054" Language="SFX">
 					<ShortName>amb_waterfall_small.wav</ShortName>
-					<Path>SFX\amb_waterfall_small_10C4C929.wem</Path>
+					<Path>SFX\amb_waterfall_small_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -52,7 +52,7 @@
 				<Event Id="1108173695" Name="sfx_lock_fail" ObjectPath="\Events\Default Work Unit\sfx_lock_fail" DurationType="OneShot" DurationMin="3.692312" DurationMax="3.692333"/>
 				<Event Id="3674212506" Name="sfx_lock_far" ObjectPath="\Events\Default Work Unit\sfx_lock_far" DurationType="OneShot" DurationMin="4.537458" DurationMax="4.537458"/>
 				<Event Id="231259868" Name="sfx_lock_music" ObjectPath="\Events\Default Work Unit\sfx_lock_music" DurationType="OneShot" DurationMin="10.153812" DurationMax="10.153854"/>
-				<Event Id="4253724739" Name="sfx_lock_object_light" ObjectPath="\Events\Default Work Unit\sfx_lock_object_light" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="8.307709" DurationMax="8.307709"/>
+				<Event Id="4253724739" Name="sfx_lock_object_light" ObjectPath="\Events\Default Work Unit\sfx_lock_object_light" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="8.307709" DurationMax="8.307709"/>
 				<Event Id="818588841" Name="sfx_unlock_music" ObjectPath="\Events\Default Work Unit\sfx_unlock_music" DurationType="OneShot" DurationMin="3.245479" DurationMax="3.245479"/>
 				<Event Id="3934442988" Name="sfx_unlock_object_light" ObjectPath="\Events\Default Work Unit\sfx_unlock_object_light" DurationType="OneShot" DurationMin="3.245479" DurationMax="3.245479"/>
 			</IncludedEvents>
