@@ -8,8 +8,12 @@ public class Helper : MonoBehaviour
     public TimeTravelAffector Affector { get; set; }
 
     public float Speed = 5f;
-    public float MinOffset = 2;
-    public float MaxOffset = 3;
+
+    public float MinDistance = 1;
+    public float MaxDistance = 2;
+    public float MinElevation = -20;
+    public float MaxElevation = 85;
+
     public float MinDirectionDuration = 0.2f;
     public float MaxDirectionDuration = 1f;
     public float SmoothTime = 5f;
@@ -35,7 +39,10 @@ public class Helper : MonoBehaviour
 
         offset.x += speed.x;
         offset.y += speed.y;
-        offset.z = MinOffset;
+        offset.z += speed.z;
+
+        offset.y = Mathf.Clamp(offset.y, MinElevation, MaxElevation);
+        offset.z = Mathf.Clamp(offset.z, MinDistance, MaxDistance);
 
         Vector3 o = Vector3.forward;
         o = Quaternion.AngleAxis(offset.x, Vector3.up) * o;

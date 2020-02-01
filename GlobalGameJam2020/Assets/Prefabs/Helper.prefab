@@ -41,7 +41,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361971570527261411}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -261,8 +261,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 3
-  MinOffset: 1
-  MaxOffset: 2
+  MinDistance: 0.5
+  MaxDistance: 1
+  MinElevation: -20
+  MaxElevation: 85
   MinDirectionDuration: 0.2
   MaxDirectionDuration: 1
   SmoothTime: 5
