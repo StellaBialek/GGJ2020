@@ -10,6 +10,7 @@
 		[HDR]_ColorBottomLight("Color bottom light", color) = (1,1,1,1)
 		[HDR]_ColorTopLight("Color top light", color) = (1,1,1,1)
 		_BottomFoamThreshold("Bottom foam threshold", Range(0,1)) = 0.1
+		_FillRate("FillRate", Range(0,1)) = 1
 	}
 		SubShader
 		{
@@ -51,6 +52,7 @@
 				fixed4 _ColorTopLight;
 				half _DisplAmount;
 				half _BottomFoamThreshold;
+				float _FillRate;
 
 				v2f vert(appdata v)
 				{
@@ -65,6 +67,7 @@
 
 				fixed4 frag(v2f i) : SV_Target
 				{
+					clip(i.uv.y - (1-_FillRate));
 					//Displacement
 					half2 displ = tex2D(_DisplGuide, i.displUV + _Time.y / 5).xy;
 					displ = ((displ * 2) - 1) * _DisplAmount;
