@@ -46,10 +46,11 @@ public class PlayerMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
+        Vector3 up = g.GroundNormal;
         Vector3 forward = transform.position - viewer.position;
         forward.y = 0;
         forward = Vector3.Normalize(forward);
-        Vector3 sideways = Vector3.Cross(Vector3.up, forward);
+        Vector3 sideways = Vector3.Cross(up, forward);
 
         Vector3 forwardForce = forward * forwardSpeed.Value * MaxSpeed;
         Vector3 sidewaysForce = sideways * sidewaysSpeed.Value * MaxSpeed;
