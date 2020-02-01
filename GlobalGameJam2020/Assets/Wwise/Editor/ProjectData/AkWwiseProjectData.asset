@@ -31,15 +31,222 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: d0ed768774620c48bbee57a668a035df
     GuidInternal: 
-    m_lastTime: -8586211039898449647
-    List: []
+    m_lastTime: -8586210365780600032
+    List:
+    - name: Ambience
+      guid: a7b571f241182742a98fcdff3bf5a810
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 7
+      Path: Default Work Unit\Ambience
+    - name: Music
+      guid: 67f93d1184286b4daa6ea96ad6a48785
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Default Work Unit\Music
+    - name: SFX
+      guid: adc203352b7e6c409c1628b3430c2ed1
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 7
+      Path: Default Work Unit\SFX
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 61c97b306c3ae54f9f1eda90242b8cb7
     GuidInternal: 
-    m_lastTime: -8586211039898818663
-    List: []
+    m_lastTime: -8586210365831191724
+    List:
+    - name: amb_creeking
+      guid: 89365b250659de4fa09f7795a2c4e0b1
+      id: 1807168230
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: amb_creeking
+        ObjectType: 3
+      Path: Default Work Unit\amb_creeking
+      maxAttenuation: 15000000
+      maxDuration: 65461984
+      minDuration: 65461984
+    - name: amb_sea
+      guid: 6126f67cc681194995ee72df903f1267
+      id: 3652298359
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: amb_sea
+        ObjectType: 3
+      Path: Default Work Unit\amb_sea
+      maxAttenuation: 100000000
+      maxDuration: 68500000
+      minDuration: 68500000
+    - name: amb_waterfall_big
+      guid: 834f7386578c124a961072bf27746b25
+      id: 2816987279
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: amb_waterfall_big
+        ObjectType: 3
+      Path: Default Work Unit\amb_waterfall_big
+      maxAttenuation: 20000000
+      maxDuration: 24923084
+      minDuration: 24923084
+    - name: amb_waterfall_small
+      guid: a5860588ade9214aa96e11647cf47834
+      id: 1798629568
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: amb_waterfall_small
+        ObjectType: 3
+      Path: Default Work Unit\amb_waterfall_small
+      maxAttenuation: 15000000
+      maxDuration: 30923084
+      minDuration: 30923084
+    - name: footsteps
+      guid: 0401987449a252439ef78e8e0639a047
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: footsteps
+        ObjectType: 3
+      Path: Default Work Unit\footsteps
+      maxAttenuation: 0
+      maxDuration: 1099666
+      minDuration: 809648
+    - name: music
+      guid: b29de3cb0d0ea64f8d79ffe0d491fcf5
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: music
+        ObjectType: 3
+      Path: Default Work Unit\music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: obj_light_01
+      guid: 306dc9e886b8144791290ee0f8054959
+      id: 4270401061
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: obj_light_01
+        ObjectType: 3
+      Path: Default Work Unit\obj_light_01
+      maxAttenuation: 2000000
+      maxDuration: -1
+      minDuration: -1
+    - name: obj_light_02
+      guid: d7a2314385b7f641afdea734c1f36b2f
+      id: 4270401062
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: obj_light_02
+        ObjectType: 3
+      Path: Default Work Unit\obj_light_02
+      maxAttenuation: 2000000
+      maxDuration: -1
+      minDuration: -1
+    - name: obj_light_03
+      guid: 74b13181205a2e458980026e04766ed7
+      id: 4270401063
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: obj_light_03
+        ObjectType: 3
+      Path: Default Work Unit\obj_light_03
+      maxAttenuation: 2000000
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_lock_fail
+      guid: 5ab54707f931e54885669bab54de27ab
+      id: 1108173695
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_lock_fail
+        ObjectType: 3
+      Path: Default Work Unit\sfx_lock_fail
+      maxAttenuation: 0
+      maxDuration: 3692333
+      minDuration: 3692312
+    - name: sfx_lock_far
+      guid: af65664d92f872479fa17d9ab5a3f5dd
+      id: 3674212506
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_lock_far
+        ObjectType: 3
+      Path: Default Work Unit\sfx_lock_far
+      maxAttenuation: 0
+      maxDuration: 4537458
+      minDuration: 4537458
+    - name: sfx_lock_music
+      guid: 3b203afe0d7554488e546e47dc6c7826
+      id: 231259868
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_lock_music
+        ObjectType: 3
+      Path: Default Work Unit\sfx_lock_music
+      maxAttenuation: 0
+      maxDuration: 10153854
+      minDuration: 10153812
+    - name: sfx_lock_object_light
+      guid: dbe86148df79e6439ae6edc80e17ae50
+      id: 4253724739
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_lock_object_light
+        ObjectType: 3
+      Path: Default Work Unit\sfx_lock_object_light
+      maxAttenuation: 15000000
+      maxDuration: 8307709
+      minDuration: 8307709
+    - name: sfx_unlock_music
+      guid: f8cd087993ef854595b727231c0ea795
+      id: 818588841
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_unlock_music
+        ObjectType: 3
+      Path: Default Work Unit\sfx_unlock_music
+      maxAttenuation: 0
+      maxDuration: 3245479
+      minDuration: 3245479
+    - name: sfx_unlock_object_light
+      guid: 46f3d68cf283c0449ee9b0867a038580
+      id: 3934442988
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_unlock_object_light
+        ObjectType: 3
+      Path: Default Work Unit\sfx_unlock_object_light
+      maxAttenuation: 0
+      maxDuration: 3245479
+      minDuration: 3245479
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -52,15 +259,46 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: a3817fc23319094cb800e83d43c95753
     GuidInternal: 
-    m_lastTime: -8586211039898758818
+    m_lastTime: -8586210484616503949
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 61587ad235e74f49909fc7eb1e1b6455
     GuidInternal: 
-    m_lastTime: -8586211039898798672
-    List: []
+    m_lastTime: -8586210484616607395
+    List:
+    - name: Material
+      guid: 73eac22d4aa95d4cb6f5432e3143b2d3
+      id: 3865314626
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Material
+        ObjectType: 11
+      Path: Default Work Unit\Material
+      values:
+      - name: Concrete
+        guid: 72a3d7322b5fc8468d2d0a89225f83b1
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Concrete
+          ObjectType: 10
+      - name: Water
+        guid: 46a8a78442013742b0188452cef5fdd1
+        id: 2654748154
+        PathAndIcons:
+        - ElementName: Water
+          ObjectType: 10
+      - name: Wood
+        guid: ec875eb55fe53a4f9b883002436523fe
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Wood
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -70,5 +308,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /GlobalGameJam2020_WwiseProject
+  - /GlobalGameJam2020_WwiseProject/Events
+  - /GlobalGameJam2020_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

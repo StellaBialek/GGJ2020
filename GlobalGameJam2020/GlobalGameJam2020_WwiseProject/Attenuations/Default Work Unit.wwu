@@ -103,13 +103,23 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>19.12226</XPos>
-											<YPos>-4.03506</YPos>
+											<XPos>15.20376</XPos>
+											<YPos>-3.10482</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>53.9185</XPos>
-											<YPos>-12.37997</YPos>
+											<XPos>23.35424</XPos>
+											<YPos>-5.1626</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>30.09404</XPos>
+											<YPos>-14.12297</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>43.26019</XPos>
+											<YPos>-16.62175</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -143,7 +153,7 @@
 				</Attenuation>
 				<Attenuation Name="World Ambience" ID="{97750623-9A00-42E8-BF03-6B9CC8757AF4}" ShortID="250479972">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="20"/>
+						<Property Name="RadiusMax" Type="Real64" Value="15"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -159,23 +169,135 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>4.04388</XPos>
-											<YPos>-4.82523</YPos>
+											<XPos>0.68182</XPos>
+											<YPos>-0.89935</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>8.68339</XPos>
-											<YPos>-10.44177</YPos>
+											<XPos>1.9044</XPos>
+											<YPos>-3.45092</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>12.97805</XPos>
-											<YPos>-16.94955</YPos>
+											<XPos>3.19649</XPos>
+											<YPos>-6.66064</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>4.81875</XPos>
+											<YPos>-9.66619</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>6.18339</XPos>
+											<YPos>-13.20781</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>7.2649</XPos>
+											<YPos>-18.80464</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>9.89812</XPos>
+											<YPos>-22.97015</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>15</XPos>
+											<YPos>-27.18722</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</FocusUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+				<Attenuation Name="Waterfall" ID="{57FCC369-F99C-42F6-8C83-2533567ABD13}" ShortID="315127711">
+					<PropertyList>
+						<Property Name="ConeInnerAngle" Type="int32" Value="125"/>
+						<Property Name="ConeLowPassFilterValue" Type="int32">
+							<ValueList>
+								<Value>16</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ConeUse" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RadiusMax" Type="Real64" Value="20"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{EB736080-3C28-4372-810C-E79E7F6394B5}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>3.0094</XPos>
+											<YPos>-0.69129</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>3.44828</XPos>
+											<YPos>-5.85685</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>4.5768</XPos>
+											<YPos>-10.50188</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>5.76802</XPos>
+											<YPos>-16.22221</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>6.89654</XPos>
+											<YPos>-20.43975</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>9.37305</XPos>
+											<YPos>-27.44047</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>15.04702</XPos>
+											<YPos>-27.44046</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>20</XPos>
-											<YPos>-200</YPos>
+											<YPos>-27.18722</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

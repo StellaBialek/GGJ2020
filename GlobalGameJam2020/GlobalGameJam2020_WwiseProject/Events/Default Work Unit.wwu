@@ -8,7 +8,7 @@
 						<Action Name="" ID="{E37FAD85-A487-4697-8776-7E868D649E06}" ShortID="445720002">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX Lock Music" ID="{74D5E731-A2E1-446B-9A20-E211EA61A989}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+									<ObjectRef Name="Lock Music" ID="{30188FE2-AD23-494F-A8F0-F334FA69A0DB}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -64,6 +64,105 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="obj_light_03" ID="{23059C7A-F8E6-4C2B-988F-F6EAA8A33B01}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_waterfall_small" ID="{880586A5-E9AD-4A21-A96E-11647CF47834}">
+					<ChildrenList>
+						<Action Name="" ID="{7CBC3562-B99E-4FC0-B11E-3CDB41FE08A8}" ShortID="1070298423">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_waterfall_small" ID="{FE637B3B-A531-4C11-B93C-8A851037964E}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_waterfall_big" ID="{86734F83-8C57-4A12-9610-72BF27746B25}">
+					<ChildrenList>
+						<Action Name="" ID="{C13503EF-13B4-4E93-A87D-10F799F9057B}" ShortID="163606969">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_waterfall_big" ID="{EBDE1482-5B18-4610-B831-68AA5FAFC5E6}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_sea" ID="{7CF62661-81C6-4919-95EE-72DF903F1267}">
+					<ChildrenList>
+						<Action Name="" ID="{B4EF1BD9-EB3C-44D4-92D0-E879F0A92F6C}" ShortID="35586399">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_sea" ID="{98597D01-C6B5-45AF-8683-14121FCB60D1}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_creeking" ID="{255B3689-5906-4FDE-A09F-7795A2C4E0B1}">
+					<ChildrenList>
+						<Action Name="" ID="{C3E441E6-E263-4748-B8DA-AC30B09603BB}" ShortID="671002627">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_creeking" ID="{8BB3974B-E2E1-4F92-94A3-34F9C73892A3}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_lock_object_light" ID="{4861E8DB-79DF-43E6-9AE6-EDC80E17AE50}">
+					<ChildrenList>
+						<Action Name="" ID="{B455EC24-1250-4428-90A0-2C42F084A7D1}" ShortID="596017685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_lock_object_light" ID="{9B085C64-1346-47B3-B808-E60A95FF470F}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_lock_fail" ID="{0747B55A-31F9-48E5-8566-9BAB54DE27AB}">
+					<ChildrenList>
+						<Action Name="" ID="{CB462749-ACC9-40C0-9327-BD697B838C9C}" ShortID="297101562">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lock Fail" ID="{9E03CE2D-BDF7-4F31-A714-CD55A30170E9}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_lock_far" ID="{4D6665AF-F892-4772-9FA1-7D9AB5A3F5DD}">
+					<ChildrenList>
+						<Action Name="" ID="{1BABFD89-F1D7-44A4-8BC2-8DD94AEE2B25}" ShortID="915826563">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_lock_far" ID="{54583753-254A-41AC-8986-308F076C2A3C}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_unlock_music" ID="{7908CDF8-EF93-4585-95B7-27231C0EA795}">
+					<ChildrenList>
+						<Action Name="" ID="{E2D656C8-BA8F-4380-A20C-964775ECA412}" ShortID="81453421">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_unlock" ID="{B7B4C4DE-BD01-4BE4-B8C4-800AD5C08392}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_unlock_object_light" ID="{8CD6F346-83F2-44C0-9EE9-B0867A038580}">
+					<ChildrenList>
+						<Action Name="" ID="{73D674CD-849A-47C7-8911-F93FD2AA4583}" ShortID="506229132">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_unlock_object_light" ID="{F9F85B1F-B58D-49C7-A7AD-BBC42D2CA0D8}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

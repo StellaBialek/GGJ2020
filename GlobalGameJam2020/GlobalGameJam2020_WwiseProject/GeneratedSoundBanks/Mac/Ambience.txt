@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1798629568	amb_waterfall_small			\Default Work Unit\amb_waterfall_small	
+	1807168230	amb_creeking			\Default Work Unit\amb_creeking	
+	2816987279	amb_waterfall_big			\Default Work Unit\amb_waterfall_big	
+	3652298359	amb_sea			\Default Work Unit\amb_sea	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	367782762	amb_creeking	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Mac\SFX\amb_creeking_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\amb_creeking		12568764
+	423798247	amb_sea	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Mac\SFX\amb_sea_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\amb_sea		13152064
+	543235144	amb_waterfall_big	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Mac\SFX\amb_waterfall_big_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\amb_waterfall_big		4785296
+	801914054	amb_waterfall_small	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Mac\SFX\amb_waterfall_small_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\amb_waterfall_small		5937296
+
