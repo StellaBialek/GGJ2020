@@ -26,8 +26,7 @@ public class WalkingSoundController : MonoBehaviour
 
     private void TriggerSound(SurfaceProperty surface)
     {
-        Debug.Log(surface.Material);
-        //TODO: trigger AKSoundEngine
+        Debug.Log(surface.Material); //TODO: replace by triggering AKSoundEngine
     }
 
 }
