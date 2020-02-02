@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
-	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1580589785" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1580589785" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1580611636" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1580600391" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1580502895" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1580503644" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1580502895" DateHigh="0"/>
@@ -9,9 +9,9 @@
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1580502895" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1580502895" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Effects\Factory Effects.wwu" DateLow="1580463931" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Events\Default Work Unit.wwu" DateLow="1580588716" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Events\Default Work Unit.wwu" DateLow="1580600230" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1580502895" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\GlobalGameJam2020_WwiseProject.PC.wsettings" DateLow="1580590162" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\GlobalGameJam2020_WwiseProject.PC.wsettings" DateLow="1580612397" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\GlobalGameJam2020_WwiseProject.wproj" DateLow="1580586942" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1580502895" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1580502895" DateHigh="0"/>
@@ -20,7 +20,7 @@
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1580502895" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1580502895" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Queries\Factory Queries.wwu" DateLow="1580463931" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1580589206" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1580600391" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1580502895" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\States\Default Work Unit.wwu" DateLow="1580558423" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1580558423" DateHigh="0"/>
