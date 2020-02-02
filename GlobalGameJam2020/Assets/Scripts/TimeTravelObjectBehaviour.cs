@@ -5,13 +5,15 @@ using UnityEngine;
 public class TimeTravelObjectBehaviour : MonoBehaviour
 {
     public TimeTravelObject[] AdditionalRequiredTimeTravelObjects = { };
-    public float Smooth = 5;
+    public float Smooth = 1;
+    public float StartOffset = 0;
+    public float EndOffset = 1;
 
     public virtual float AffectionLevel
     {
         get
         {
-            float affectionLevel = Parent.AffectionLevel;
+            float affectionLevel = Mathf.InverseLerp(StartOffset, EndOffset, Parent.AffectionLevel);
             foreach (TimeTravelObject requiredTimeTravelObject in AdditionalRequiredTimeTravelObjects)
             {
                 affectionLevel *= requiredTimeTravelObject.AffectionLevel;
@@ -36,7 +38,7 @@ public class TimeTravelObjectBehaviour : MonoBehaviour
     }
     public TimeTravelObject Parent { get; set; }
 
-    public void UpdateAffectionLevel()
+    public virtual void UpdateAffectionLevel()
     {
         CurrentAffectionLevel = Mathf.Lerp(LastAffectionLevel, AffectionLevel, Time.deltaTime * Smooth);
         LastAffectionLevel = CurrentAffectionLevel;
