@@ -78,6 +78,7 @@
 				</BlendContainer>
 				<SwitchContainer Name="Footsteps" ID="{FF56B768-9237-4459-B0D9-9DADD55A8162}" ShortID="38268350">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>3</Value>
@@ -925,6 +926,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="sfx_lock_far" ID="{54583753-254A-41AC-8986-308F076C2A3C}" ShortID="313689940">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
