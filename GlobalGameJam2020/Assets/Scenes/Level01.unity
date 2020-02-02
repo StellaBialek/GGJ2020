@@ -189,17 +189,17 @@ PrefabInstance:
     - target: {fileID: 824524812542500555, guid: 46480199e43af694cbb2b53e66763a35,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 692.6
+      value: 689.3
       objectReference: {fileID: 0}
     - target: {fileID: 824524812542500555, guid: 46480199e43af694cbb2b53e66763a35,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 41.9
+      value: 32.1
       objectReference: {fileID: 0}
     - target: {fileID: 824524812542500555, guid: 46480199e43af694cbb2b53e66763a35,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 615.71
+      value: 582
       objectReference: {fileID: 0}
     - target: {fileID: 824524812542500555, guid: 46480199e43af694cbb2b53e66763a35,
         type: 3}
@@ -1283,16 +1283,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 336890190382991080, guid: e7cb66018749ab54e907dd2b7d05234f,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 0.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 336890190382991080, guid: e7cb66018749ab54e907dd2b7d05234f,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.92
-      objectReference: {fileID: 0}
     - target: {fileID: 593895875529500588, guid: e7cb66018749ab54e907dd2b7d05234f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1353,13 +1343,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: PierA_Stair
       objectReference: {fileID: 0}
-    - target: {fileID: 6548606136647750009, guid: e7cb66018749ab54e907dd2b7d05234f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3836131349975627508, guid: e7cb66018749ab54e907dd2b7d05234f, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7cb66018749ab54e907dd2b7d05234f, type: 3}
 --- !u!1001 &4121732375335462675
 PrefabInstance:
