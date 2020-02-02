@@ -18,6 +18,9 @@ public class CameraMovement : MonoBehaviour
     public float MinY = 0;
     public float MaxY = 60;
 
+    public float MinX = -90;
+    public float MaxX = 90;
+
     public float BuildupX = 0.5f;
     public float BuildupY = 0.5f;
     public float BuildupZ = 0.5f;
@@ -25,6 +28,7 @@ public class CameraMovement : MonoBehaviour
     public float MaxSpeedX = 120;
     public float MaxSpeedY = 100;
     public float MaxSpeedZ = 100;
+
 
     public float SpeedFalloff = 2f;
 
@@ -37,11 +41,11 @@ public class CameraMovement : MonoBehaviour
     private AxisSpeed axisZ;
     private List<AxisSpeed> directions;
 
-    private Transform target;
+    public Transform Target { get; set; }
 
     public void Start()
     {
-        target = FindObjectOfType<PlayerMovement>().transform;
+        Target = FindObjectOfType<PlayerMovement>().transform;
 
         x = InitialX;
         y = InitialY;
@@ -74,6 +78,7 @@ public class CameraMovement : MonoBehaviour
         }
 
         x += axisX.Current * Time.deltaTime;
+        x = Mathf.Clamp(x, MinX, MaxX);
 
         y += axisY.Current * Time.deltaTime;
         y = Mathf.Clamp(y, MinY, MaxY);
@@ -81,11 +86,16 @@ public class CameraMovement : MonoBehaviour
         z -= axisZ.Current * Time.deltaTime;
         z = Mathf.Clamp(z, MinZ, MaxZ);
 
-        Vector3 offset = Vector3.forward;
+        UpdatePosition();
+    }
+
+    private void UpdatePosition()
+    {
+        Vector3 offset = -Vector3.forward;
         offset = Quaternion.AngleAxis(x, Vector3.up) * offset;
         offset = Quaternion.AngleAxis(y, Vector3.Cross(offset, Vector3.up)) * offset;
 
-        transform.position = target.position + offset * z;
-        transform.LookAt(target);
+        transform.position = Target.position + offset * z;
+        transform.LookAt(Target);
     }
 }

@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 6801feaa3cb1c9f4ebcc736864426eb9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Yoshitoshi
+  fontNames:
+  - Yoshitoshi
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b33a0252f6504a4449d0f2c078dca7da, type: 3}
+  - {fileID: 12800000, guid: 35e92dbbf09806143b741ca644ace896, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
