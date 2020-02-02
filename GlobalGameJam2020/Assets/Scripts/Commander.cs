@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using AK;
 
 public class Commander : MonoBehaviour
 {
@@ -27,16 +28,29 @@ public class Commander : MonoBehaviour
     {
         if(Input.GetButtonDown("Command"))
         {
-            helpers = helpers.OrderBy(x => Vector3.Distance(x.Target.transform.position, transform.position)).ToList<Helper>();
-            Debug.Log(helpers.Count);
+            bool outOfHelpers = true;
+
             foreach(Helper helper in helpers)
             {
+                if(helper.Target == transform) //at least one helper available
+                {
+                    outOfHelpers = false;
+                }
+
                 if (TrySendHelper(helper) || TryRetrieveHelper(helper))
                 {
                     return;
                 }
             }
-            Debug.Log("no more helper interaction possible!");
+
+            if(outOfHelpers)
+            {
+                AkSoundEngine.PostEvent("sfx_lock_far", gameObject);
+            }
+            else
+            {
+                AkSoundEngine.PostEvent("sfx_lock_fail", gameObject);
+            }
         }
     }
 
@@ -48,6 +62,10 @@ public class Commander : MonoBehaviour
             if (availableObject != null)
             {
                 helper.Target = availableObject.transform;
+
+                AkSoundEngine.PostEvent("sfx_lock_music", gameObject);
+                AkSoundEngine.PostEvent("sfx_lock_object_light", helper.Target.gameObject);
+
                 return  true;
             }
         }
@@ -61,7 +79,11 @@ public class Commander : MonoBehaviour
             TimeTravelObject target = helper.Target.GetComponent<TimeTravelObject>();
             if (affector.IsTimeTravelObjectInRange(target))
             {
+                AkSoundEngine.PostEvent("sfx_unlock_music", gameObject);
+                AkSoundEngine.PostEvent("sfx_unlock_object_light", helper.Target.gameObject);
+
                 helper.Target = transform;
+
                 return true;
             }
         }
