@@ -21,8 +21,12 @@ public class PlayerMovement : MonoBehaviour
     private Climber c;
     private GroundChecker g;
 
+    private HotAirBalloon cheatmode;
+
     void Start()
     {
+        cheatmode = FindObjectOfType<HotAirBalloon>();
+
         viewer = FindObjectOfType<CameraMovement>().transform;
 
         sidewaysSpeed = new AxisSpeed("X", 1, SpeedBuildup, SpeedFalloff);
@@ -42,6 +46,11 @@ public class PlayerMovement : MonoBehaviour
         foreach (AxisSpeed axis in directions)
         {
             axis.Update();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha9))
+        {
+            transform.position = cheatmode.transform.position + Vector3.up * 2;
         }
     }
     void FixedUpdate()
