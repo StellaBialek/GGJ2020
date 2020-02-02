@@ -1,9 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	1765706348	music_ending			\Default Work Unit\music_ending	
-	3991942870	music			\Default Work Unit\music	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	349580837	music_menu	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\music_menu_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\music_menu		12760680
-	518348812	music_ambience	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\music_ambience_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\music_ambience		12760680
-	1055437198	Music Ending	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\music_ending_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music Ending		10478836
-
