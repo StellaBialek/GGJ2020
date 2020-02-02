@@ -189,7 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HelperPrefab: {fileID: 2882662958738858271, guid: 408bafd6ecfbd6d4c9e0c8287e0d625c,
     type: 3}
-  NumHelpers: 2
+  NumHelpers: 3
 --- !u!114 &3373679555425182824
 MonoBehaviour:
   m_ObjectHideFlags: 0
