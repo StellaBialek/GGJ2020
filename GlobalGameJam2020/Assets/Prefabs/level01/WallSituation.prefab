@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 281238629005542053}
   - component: {fileID: 281238629005542054}
   - component: {fileID: 2590288807263016527}
+  - component: {fileID: 486903432395412656}
   m_Layer: 9
   m_Name: Plane (19)
   m_TagString: Untagged
@@ -114,6 +115,19 @@ MonoBehaviour:
   EndOffset: 0.7
   Present: 1
   Past: 0
+--- !u!114 &486903432395412656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281238629005542055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Water
 --- !u!1 &281238629174531786
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,6 +522,19 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3532861595902614649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6366074850703943832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Concrete
 --- !u!114 &6264417845323429221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -555,6 +582,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6039537587505309004}
+  - component: {fileID: 5784668765950137828}
   m_Layer: 0
   m_Name: WallSituation
   m_TagString: Untagged
@@ -577,6 +605,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5784668765950137828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7811513808351969609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Water
 --- !u!1001 &281238630373524645
 PrefabInstance:
   m_ObjectHideFlags: 0

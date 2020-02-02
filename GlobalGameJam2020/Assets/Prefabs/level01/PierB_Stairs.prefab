@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2291141398189138818}
   - component: {fileID: 9139015823757876411}
   - component: {fileID: 6552340813849408237}
+  - component: {fileID: 539737187}
   m_Layer: 0
   m_Name: floor_02 (77)
   m_TagString: Untagged
@@ -93,6 +94,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0133142, y: 0.10095249, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &539737187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59768214592567389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Wood
 --- !u!1 &907321544549134341
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,6 +119,7 @@ GameObject:
   - component: {fileID: 4693845973371935986}
   - component: {fileID: 1517381111952168581}
   - component: {fileID: 2924656860359389895}
+  - component: {fileID: 1408216784}
   m_Layer: 0
   m_Name: floor_01 (13)
   m_TagString: Untagged
@@ -186,6 +201,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.07540054, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1408216784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907321544549134341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Concrete
 --- !u!1 &1093470156151718097
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,6 +226,7 @@ GameObject:
   - component: {fileID: 7404936660799645225}
   - component: {fileID: 3648164397580569164}
   - component: {fileID: 2506456851506731236}
+  - component: {fileID: 244581379}
   m_Layer: 0
   m_Name: floor_02 (62)
   m_TagString: Untagged
@@ -279,6 +308,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0133142, y: 0.10095249, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &244581379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093470156151718097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Wood
 --- !u!1 &2367933345797178293
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +333,7 @@ GameObject:
   - component: {fileID: 2263098503874910954}
   - component: {fileID: 1508439776110128727}
   - component: {fileID: 2453218393579958848}
+  - component: {fileID: 1302909859}
   m_Layer: 0
   m_Name: floor_01 (12)
   m_TagString: Untagged
@@ -372,6 +415,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.07540054, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1302909859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2367933345797178293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Concrete
 --- !u!1 &2808893169972010782
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +533,7 @@ GameObject:
   - component: {fileID: 4405361444008398353}
   - component: {fileID: 7573689672483381716}
   - component: {fileID: 7855878647389522358}
+  - component: {fileID: 563402088}
   m_Layer: 0
   m_Name: stairs_01 (6)
   m_TagString: Untagged
@@ -559,6 +616,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -171333748778472863, guid: dcc8c857f23549a41b68f6f5286bc00b, type: 3}
+--- !u!114 &563402088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3739055773004570992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Wood
 --- !u!1 &3808248378596542950
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +638,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 314247115938075867}
+  - component: {fileID: 1687761858}
+  - component: {fileID: 1687761859}
   m_Layer: 0
   m_Name: PierB_Stairs
   m_TagString: Untagged
@@ -607,6 +679,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1687761858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3808248378596542950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Concrete
+--- !u!114 &1687761859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3808248378596542950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: 
 --- !u!1 &4215882657408030859
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,6 +717,7 @@ GameObject:
   - component: {fileID: 3772158037367549695}
   - component: {fileID: 1615322772412598126}
   - component: {fileID: 3516035482883947988}
+  - component: {fileID: 1790194305}
   m_Layer: 0
   m_Name: floor_01 (49)
   m_TagString: Untagged
@@ -700,6 +799,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.07540054, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1790194305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215882657408030859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Concrete
 --- !u!1 &4459264647900817585
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,6 +825,7 @@ GameObject:
   - component: {fileID: 8437325142087558604}
   - component: {fileID: 6658227723275017051}
   - component: {fileID: 2961761379841637666}
+  - component: {fileID: 1614902368}
   m_Layer: 0
   m_Name: ladder_01 (2)
   m_TagString: Untagged
@@ -806,6 +919,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbfbc9b766ccb3640aa96f15896b6e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1614902368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4459264647900817585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Wood
 --- !u!1 &4621985413661387503
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,6 +944,7 @@ GameObject:
   - component: {fileID: 5926030401062432890}
   - component: {fileID: 4300568913310577673}
   - component: {fileID: 1159777004310923091}
+  - component: {fileID: 1300626435}
   m_Layer: 0
   m_Name: stairs_01 (5)
   m_TagString: Untagged
@@ -900,6 +1027,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -171333748778472863, guid: dcc8c857f23549a41b68f6f5286bc00b, type: 3}
+--- !u!114 &1300626435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4621985413661387503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Wood
 --- !u!1 &4792838691528205915
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +1052,7 @@ GameObject:
   - component: {fileID: 2915457460607060470}
   - component: {fileID: 5799652910996611816}
   - component: {fileID: 4195236387398199116}
+  - component: {fileID: 1474517726}
   m_Layer: 0
   m_Name: floor_01 (46)
   m_TagString: Untagged
@@ -993,6 +1134,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.07540054, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1474517726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4792838691528205915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Concrete
 --- !u!1 &5061224995095616105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,6 +1159,7 @@ GameObject:
   - component: {fileID: 8829362239238978759}
   - component: {fileID: 8451937849660700405}
   - component: {fileID: 1411351353621530149}
+  - component: {fileID: 1650571205}
   m_Layer: 0
   m_Name: floor_01 (67)
   m_TagString: Untagged
@@ -1086,6 +1241,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.07540054, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1650571205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5061224995095616105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Concrete
 --- !u!1 &5743744174822036998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,6 +1266,7 @@ GameObject:
   - component: {fileID: 6646933598440150979}
   - component: {fileID: 3104643957510451559}
   - component: {fileID: 6366295653841889453}
+  - component: {fileID: 1110612067}
   m_Layer: 0
   m_Name: floor_01 (47)
   m_TagString: Untagged
@@ -1179,6 +1348,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.07540054, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1110612067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5743744174822036998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Concrete
 --- !u!1 &6224535769316423704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,6 +1373,7 @@ GameObject:
   - component: {fileID: 158345228962838467}
   - component: {fileID: 17866884088896968}
   - component: {fileID: 651187549141720685}
+  - component: {fileID: 1380420372}
   m_Layer: 0
   m_Name: floor_01 (48)
   m_TagString: Untagged
@@ -1272,6 +1455,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.07540054, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1380420372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224535769316423704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Concrete
 --- !u!1 &7051413468913780255
 GameObject:
   m_ObjectHideFlags: 0
@@ -1284,6 +1480,7 @@ GameObject:
   - component: {fileID: 2887053759619791162}
   - component: {fileID: 404343540857666021}
   - component: {fileID: 5707289799036515104}
+  - component: {fileID: 805236210}
   m_Layer: 0
   m_Name: floor_01 (14)
   m_TagString: Untagged
@@ -1365,6 +1562,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.07540054, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &805236210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7051413468913780255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Concrete
 --- !u!1 &8029247299439703751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,6 +1587,7 @@ GameObject:
   - component: {fileID: 2653128048014045108}
   - component: {fileID: 67082618011416306}
   - component: {fileID: 808459653865134617}
+  - component: {fileID: 615957033}
   m_Layer: 0
   m_Name: floor_01 (15)
   m_TagString: Untagged
@@ -1458,6 +1669,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.07540054, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &615957033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8029247299439703751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Concrete
 --- !u!1 &8109019120880556200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,6 +1788,7 @@ GameObject:
   - component: {fileID: 3233318295508275277}
   - component: {fileID: 6239548741111076016}
   - component: {fileID: 6074265917904358103}
+  - component: {fileID: 13679295}
   m_Layer: 0
   m_Name: ladder_01 (1)
   m_TagString: Untagged
@@ -1657,6 +1882,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbfbc9b766ccb3640aa96f15896b6e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &13679295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8949390244765463291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a9535ea158e28489e61291880437f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: Wood
 --- !u!1001 &4810626268154375877
 PrefabInstance:
   m_ObjectHideFlags: 0
