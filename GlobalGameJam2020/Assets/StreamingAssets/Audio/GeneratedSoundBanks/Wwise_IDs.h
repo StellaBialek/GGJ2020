@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID AMB_WATERFALL_SMALL = 1798629568U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID MUSIC_ENDING = 1765706348U;
         static const AkUniqueID OBJ_LIGHT_01 = 4270401061U;
         static const AkUniqueID SFX_LOCK_FAIL = 1108173695U;
         static const AkUniqueID SFX_LOCK_FAR = 3674212506U;

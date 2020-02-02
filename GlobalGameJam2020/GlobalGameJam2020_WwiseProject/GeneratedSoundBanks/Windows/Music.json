@@ -24,6 +24,14 @@
       "Name": "music",
       "ObjectPath": "\\Events\\Default Work Unit\\music",
       "DurationType": "Infinite"
+     },
+     {
+      "Id": "1765706348",
+      "Name": "music_ending",
+      "ObjectPath": "\\Events\\Default Work Unit\\music_ending",
+      "DurationType": "OneShot",
+      "DurationMin": "54.576939",
+      "DurationMax": "54.576939"
      }
     ],
     "IncludedMemoryFiles": [
@@ -38,6 +46,12 @@
       "Language": "SFX",
       "ShortName": "music_ambience.wav",
       "Path": "SFX\\music_ambience_D79FB2B7.wem"
+     },
+     {
+      "Id": "1055437198",
+      "Language": "SFX",
+      "ShortName": "music_ending.wav",
+      "Path": "SFX\\music_ending_10C4C929.wem"
      }
     ]
    }

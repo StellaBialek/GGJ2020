@@ -189,6 +189,7 @@
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3991942870" Name="music" ObjectPath="\Events\Default Work Unit\music" DurationType="Infinite"/>
+				<Event Id="1765706348" Name="music_ending" ObjectPath="\Events\Default Work Unit\music_ending" DurationType="OneShot" DurationMin="54.576939" DurationMax="54.576939"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="349580837" Language="SFX">
@@ -198,6 +199,10 @@
 				<File Id="518348812" Language="SFX">
 					<ShortName>music_ambience.wav</ShortName>
 					<Path>SFX\music_ambience_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1055437198" Language="SFX">
+					<ShortName>music_ending.wav</ShortName>
+					<Path>SFX\music_ending_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
