@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerAnimatorController : MonoBehaviour
 {
+    public AnimationCurve WalkAnimationSpeed;
     private Animator anim;
-    private Vector3 lastPosition;
 
     void Start()
     {
@@ -15,11 +15,10 @@ public class PlayerAnimatorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 dir = transform.position - lastPosition;
-        dir.z = 0;
-        float movespeed = dir.magnitude;
-        Debug.Log(movespeed);
+        float x = Input.GetAxis("X");
+        float y = Input.GetAxis("Y");
+        float movespeed = x * x + y * y ;
         anim.SetFloat("movespeed", movespeed);
-        lastPosition = transform.position;   
+        anim.SetFloat("walkanimationspeed", WalkAnimationSpeed.Evaluate(movespeed));
     }
 }
