@@ -7,8 +7,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3934442988	sfx_unlock_object_light			\Default Work Unit\sfx_unlock_object_light	
 	4253724739	sfx_lock_object_light			\Default Work Unit\sfx_lock_object_light	
 	4270401061	obj_light_01			\Default Work Unit\obj_light_01	
-	4270401062	obj_light_02			\Default Work Unit\obj_light_02	
-	4270401063	obj_light_03			\Default Work Unit\obj_light_03	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3865314626	Material			\Default Work Unit\Material	

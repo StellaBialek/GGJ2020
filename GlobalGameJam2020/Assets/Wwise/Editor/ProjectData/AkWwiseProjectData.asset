@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: d0ed768774620c48bbee57a668a035df
     GuidInternal: 
-    m_lastTime: -8586210176791668347
+    m_lastTime: -8586210064942410288
     List:
     - name: Ambience
       guid: a7b571f241182742a98fcdff3bf5a810
@@ -65,7 +65,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 61c97b306c3ae54f9f1eda90242b8cb7
     GuidInternal: 
-    m_lastTime: -8586210181693326435
+    m_lastTime: -8586210066544994293
     List:
     - name: amb_creeking
       guid: 89365b250659de4fa09f7795a2c4e0b1
@@ -89,8 +89,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\amb_sea_large
       maxAttenuation: 100000000
-      maxDuration: 24923084
-      minDuration: 24923084
+      maxDuration: -1
+      minDuration: -1
     - name: amb_sea_small
       guid: 89239af25fe36443ba01d3120ff944af
       id: 3797707855
@@ -101,8 +101,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\amb_sea_small
       maxAttenuation: 10000000
-      maxDuration: 68500000
-      minDuration: 68500000
+      maxDuration: -1
+      minDuration: -1
     - name: amb_waterfall_big
       guid: 834f7386578c124a961072bf27746b25
       id: 2816987279
@@ -160,31 +160,7 @@ MonoBehaviour:
       - ElementName: obj_light_01
         ObjectType: 3
       Path: Default Work Unit\obj_light_01
-      maxAttenuation: 2000000
-      maxDuration: -1
-      minDuration: -1
-    - name: obj_light_02
-      guid: d7a2314385b7f641afdea734c1f36b2f
-      id: 4270401062
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: obj_light_02
-        ObjectType: 3
-      Path: Default Work Unit\obj_light_02
-      maxAttenuation: 2000000
-      maxDuration: -1
-      minDuration: -1
-    - name: obj_light_03
-      guid: 74b13181205a2e458980026e04766ed7
-      id: 4270401063
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: obj_light_03
-        ObjectType: 3
-      Path: Default Work Unit\obj_light_03
-      maxAttenuation: 2000000
+      maxAttenuation: 5000000
       maxDuration: -1
       minDuration: -1
     - name: sfx_lock_fail

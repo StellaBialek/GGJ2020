@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class TimeTravelWater : TimeTravelObjectBehaviour
 {
-    public Color Present;
-    public Color Past;
+    public float Present;
+    public float Past;
 
     private MeshRenderer meshRenderer;
 
@@ -18,12 +18,6 @@ public class TimeTravelWater : TimeTravelObjectBehaviour
     void Update()
     {
         UpdateAffectionLevel();
-        meshRenderer.material.SetFloat("_FillRate", CurrentAffectionLevel);
-
-        MaterialPropertyBlock mpb = new MaterialPropertyBlock();
-        meshRenderer.GetPropertyBlock(mpb);
-        Color color = Color.Lerp(Present, Past, CurrentAffectionLevel);
-        mpb.SetColor("_Color", color);
-        meshRenderer.SetPropertyBlock(mpb);
+        meshRenderer.material.SetFloat("_FillRate", Mathf.Lerp(Present, Past, AffectionLevel));
     }
 }

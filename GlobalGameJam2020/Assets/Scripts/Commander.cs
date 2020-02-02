@@ -6,7 +6,7 @@ using System.Linq;
 public class Commander : MonoBehaviour
 {
     public GameObject HelperPrefab;
-    public int NumHelpers = 3;
+    public int NumHelpers = 2;
 
     private List<Helper> helpers = new List<Helper>();
     private TimeTravelAffector affector;
@@ -28,6 +28,7 @@ public class Commander : MonoBehaviour
         if(Input.GetButtonDown("Command"))
         {
             helpers = helpers.OrderBy(x => Vector3.Distance(x.Target.transform.position, transform.position)).ToList<Helper>();
+            Debug.Log(helpers.Count);
             foreach(Helper helper in helpers)
             {
                 if (TrySendHelper(helper) || TryRetrieveHelper(helper))

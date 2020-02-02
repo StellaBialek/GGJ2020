@@ -38,32 +38,10 @@
 				</Event>
 				<Event Name="obj_light_01" ID="{E8C96D30-B886-4714-9129-0EE0F8054959}">
 					<ChildrenList>
-						<Action Name="" ID="{AE6B4B2E-7F01-4172-90D7-FDBF9BEA51CA}" ShortID="874915721">
+						<Action Name="" ID="{6910C58D-BCF0-4CB8-92CD-3A491955FB92}" ShortID="686848561">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="obj_light_01" ID="{B2727AE2-F178-4C8B-AF4E-AE5235DCD122}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="obj_light_02" ID="{4331A2D7-B785-41F6-AFDE-A734C1F36B2F}">
-					<ChildrenList>
-						<Action Name="" ID="{DC170B53-A92D-443D-BE85-65CEE9BF8FF5}" ShortID="355805691">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="obj_light_02" ID="{F2ED7676-E03B-41DD-9AF4-0B2C1FDFA9FB}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="obj_light_03" ID="{8131B174-5A20-452E-8980-026E04766ED7}">
-					<ChildrenList>
-						<Action Name="" ID="{8133B658-DFA3-4F22-A9CC-F8E03E0936B2}" ShortID="243558608">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="obj_light_03" ID="{23059C7A-F8E6-4C2B-988F-F6EAA8A33B01}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
+									<ObjectRef Name="Lights" ID="{F31CC931-5FD5-4B00-8F96-FE5A32DC6790}" WorkUnitID="{4E0D5728-5AF9-4BED-9C6B-29072758502F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
