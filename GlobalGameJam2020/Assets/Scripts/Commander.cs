@@ -45,11 +45,11 @@ public class Commander : MonoBehaviour
 
             if(outOfHelpers)
             {
-                AkSoundEngine.PostEvent("sfx_lock_far", gameObject);
+                AkSoundEngine.PostEvent("sfx_lock_fail", gameObject);
             }
             else
             {
-                AkSoundEngine.PostEvent("sfx_lock_fail", gameObject);
+                AkSoundEngine.PostEvent("sfx_lock_far", gameObject);
             }
         }
     }
