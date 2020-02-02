@@ -1219,11 +1219,6 @@ PrefabInstance:
       propertyPath: AdditionalRequiredTimeTravelObjects.Array.data[0]
       value: 
       objectReference: {fileID: 1786816865}
-    - target: {fileID: 8262129802364764965, guid: 2e5fff7e2d5ee774b8767f2d6f1c3617,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5fff7e2d5ee774b8767f2d6f1c3617, type: 3}
 --- !u!1001 &227498415953815793

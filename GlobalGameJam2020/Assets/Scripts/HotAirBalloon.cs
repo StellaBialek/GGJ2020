@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK;
 
 public class HotAirBalloon : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class HotAirBalloon : MonoBehaviour
         cam = FindObjectOfType<CameraMovement>();
         t = new GameObject().transform;
         baseheight = transform.position.y;
-        SafetyRail.active = false;
+        SafetyRail.SetActive(false);
     }
 
     public void Update()
@@ -51,7 +52,8 @@ public class HotAirBalloon : MonoBehaviour
             isFlying = true;
             t.position = player.transform.position;
             cam.Target = t;
-            SafetyRail.active = true;
+            SafetyRail.SetActive(true);
+            AkSoundEngine.PostEvent("music_ending", gameObject);
         }
     }
 }
