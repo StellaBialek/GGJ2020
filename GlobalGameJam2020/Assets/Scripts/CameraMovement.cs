@@ -41,11 +41,11 @@ public class CameraMovement : MonoBehaviour
     private AxisSpeed axisZ;
     private List<AxisSpeed> directions;
 
-    private Transform target;
+    public Transform Target { get; set; }
 
     public void Start()
     {
-        target = FindObjectOfType<PlayerMovement>().transform;
+        Target = FindObjectOfType<PlayerMovement>().transform;
 
         x = InitialX;
         y = InitialY;
@@ -95,7 +95,7 @@ public class CameraMovement : MonoBehaviour
         offset = Quaternion.AngleAxis(x, Vector3.up) * offset;
         offset = Quaternion.AngleAxis(y, Vector3.Cross(offset, Vector3.up)) * offset;
 
-        transform.position = target.position + offset * z;
-        transform.LookAt(target);
+        transform.position = Target.position + offset * z;
+        transform.LookAt(Target);
     }
 }
