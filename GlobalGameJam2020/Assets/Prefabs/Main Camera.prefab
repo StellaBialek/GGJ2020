@@ -93,12 +93,14 @@ MonoBehaviour:
   InvertY: 1
   InvertZ: 0
   InitialX: 0
-  InitialY: 20
-  InitialZ: 20
-  MinZ: 5
-  MaxZ: 30
+  InitialY: 10
+  InitialZ: 5
+  MinZ: 1
+  MaxZ: 20
   MinY: 0
   MaxY: 60
+  MinX: -60
+  MaxX: 60
   BuildupX: 0.5
   BuildupY: 0.5
   BuildupZ: 1
