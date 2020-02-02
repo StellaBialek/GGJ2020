@@ -249,12 +249,6 @@
       "Path": "SFX\\fs_wood_05_10C4C929.wem"
      },
      {
-      "Id": "561855453",
-      "Language": "SFX",
-      "ShortName": "obj_light_03.wav",
-      "Path": "SFX\\obj_light_03_D79FB2B7.wem"
-     },
-     {
       "Id": "597261913",
       "Language": "SFX",
       "ShortName": "fs_concrete_03.wav",
@@ -343,12 +337,6 @@
       "Language": "SFX",
       "ShortName": "sfx_lock_02.wav",
       "Path": "SFX\\sfx_lock_02_10C4C929.wem"
-     },
-     {
-      "Id": "1069690982",
-      "Language": "SFX",
-      "ShortName": "obj_light_02.wav",
-      "Path": "SFX\\obj_light_02_D79FB2B7.wem"
      }
     ]
    },

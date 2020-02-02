@@ -79,10 +79,6 @@
 					<ShortName>fs_wood_05.wav</ShortName>
 					<Path>SFX\fs_wood_05_10C4C929.wem</Path>
 				</File>
-				<File Id="561855453" Language="SFX">
-					<ShortName>obj_light_03.wav</ShortName>
-					<Path>SFX\obj_light_03_D79FB2B7.wem</Path>
-				</File>
 				<File Id="597261913" Language="SFX">
 					<ShortName>fs_concrete_03.wav</ShortName>
 					<Path>SFX\fs_concrete_03_10C4C929.wem</Path>
@@ -142,10 +138,6 @@
 				<File Id="1052868354" Language="SFX">
 					<ShortName>sfx_lock_02.wav</ShortName>
 					<Path>SFX\sfx_lock_02_10C4C929.wem</Path>
-				</File>
-				<File Id="1069690982" Language="SFX">
-					<ShortName>obj_light_02.wav</ShortName>
-					<Path>SFX\obj_light_02_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

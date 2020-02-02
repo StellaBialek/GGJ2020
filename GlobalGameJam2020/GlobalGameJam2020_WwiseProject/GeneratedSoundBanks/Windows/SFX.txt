@@ -31,7 +31,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	455736607	sfx_unlock	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\sfx_unlock_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Lock\sfx_unlock		623196
 	542092002	fs_wood_03	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\fs_wood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\fs_wood_03		177296
 	550533767	fs_wood_05	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\fs_wood_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\fs_wood_05		177296
-	561855453	obj_light_03	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\obj_light_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lights\obj_light_03		12760680
 	597261913	fs_concrete_03	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\fs_concrete_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\fs_concrete_03		177300
 	604705813	sfx_lock_far	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\sfx_lock_far_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Lock\sfx_lock_far		871256
 	625712934	fs_water_02	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\fs_water_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\fs_water_02		177296
@@ -47,5 +46,4 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1026091913	sfx_lock_fail_04	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\sfx_lock_fail_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Lock\Lock Fail\sfx_lock_fail_04		708988
 	1044075460	fs_wood_02	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\fs_wood_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\fs_wood_02		177296
 	1052868354	sfx_lock_02	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\sfx_lock_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Lock\Lock Music\sfx_lock_02		1949604
-	1069690982	obj_light_02	C:\Users\PC\Documents\GitHub\GGJ2020\GlobalGameJam2020\GlobalGameJam2020_WwiseProject\.cache\Windows\SFX\obj_light_02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lights\obj_light_02		12760680
 
