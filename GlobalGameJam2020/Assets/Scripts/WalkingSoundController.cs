@@ -16,11 +16,11 @@ public class WalkingSoundController : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-		if(climber.IsClimbing)
+	/*	if(climber.IsClimbing)
 		{
 			TriggerSound("Wood");
 			return;
-		}
+		}*/
         foreach(GameObject groundObject in ground.GroundObjects)
         {
             SurfaceProperty surface = groundObject.GetComponentInChildren<SurfaceProperty>();

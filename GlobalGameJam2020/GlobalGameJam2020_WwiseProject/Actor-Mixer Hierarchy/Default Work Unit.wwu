@@ -235,11 +235,20 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Wood" ID="{08B45E66-5B61-474F-ADEA-F8453B677AE3}" ShortID="631003086">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>39</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{69B8A6EC-BF8A-4779-864B-A1A603FF4B43}">
 												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="101"/>
 													<Property Name="Min" Type="Real64" Value="-76"/>
 												</PropertyList>
@@ -247,10 +256,9 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-9</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -276,6 +284,11 @@
 							<ChildrenList>
 								<Sound Name="fs_wood_01" ID="{0B26105D-D490-4638-A8FB-8C716BFCE8A1}" ShortID="543347673">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -765,6 +778,11 @@
 						<RandomSequenceContainer Name="Lock Music" ID="{30188FE2-AD23-494F-A8F0-F334FA69A0DB}" ShortID="467475758">
 							<PropertyList>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -893,7 +911,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -929,7 +947,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-23</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -955,6 +973,11 @@
 							<PropertyList>
 								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1044,6 +1067,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="sfx_unlock" ID="{B7B4C4DE-BD01-4BE4-B8C4-800AD5C08392}" ShortID="283611341">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
@@ -1063,6 +1093,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="sfx_unlock_object_light" ID="{F9F85B1F-B58D-49C7-A7AD-BBC42D2CA0D8}" ShortID="699973379">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7BB15D2-7A43-479B-A70E-87A9D34403AE}"/>
@@ -1116,7 +1153,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
