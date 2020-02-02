@@ -449,26 +449,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1489953501688041452, guid: e5d53f4259f687243b7626ab65247385,
-        type: 3}
-      propertyPath: m_SceneBindings.Array.size
-      value: 2
+    - target: {fileID: 1318045854, guid: e5d53f4259f687243b7626ab65247385, type: 3}
+      propertyPath: Present
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1489953501688041452, guid: e5d53f4259f687243b7626ab65247385,
-        type: 3}
-      propertyPath: m_SceneBindings.Array.data[1].key
-      value: 
-      objectReference: {fileID: 427339053487130934, guid: 22b9a052189a3d74888240e614dfae8d,
-        type: 2}
     - target: {fileID: 1924929197420954507, guid: e5d53f4259f687243b7626ab65247385,
         type: 3}
       propertyPath: m_Name
       value: ShipSituation (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1924929197420954507, guid: e5d53f4259f687243b7626ab65247385,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1924929197420954516, guid: e5d53f4259f687243b7626ab65247385,
         type: 3}
@@ -524,6 +512,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265930462440610584, guid: e5d53f4259f687243b7626ab65247385,
+        type: 3}
+      propertyPath: Radius
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265930462440610584, guid: e5d53f4259f687243b7626ab65247385,
+        type: 3}
+      propertyPath: Affection.m_Curve.Array.data[1].time
+      value: 0.80393463
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265930462440610584, guid: e5d53f4259f687243b7626ab65247385,
+        type: 3}
+      propertyPath: Affection.m_Curve.Array.data[1].value
+      value: 0.99264014
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5d53f4259f687243b7626ab65247385, type: 3}
@@ -1229,6 +1232,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WorkingShipSituation
+      objectReference: {fileID: 0}
+    - target: {fileID: 674713631248033907, guid: 1e79791cf2a4aab419e20f572ce507c5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e79791cf2a4aab419e20f572ce507c5, type: 3}

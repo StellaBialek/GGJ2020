@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class TimeTravelObjectLightBehaviour : TimeTravelObjectBehaviour
 {
-    public float Smooth = 2;
     private Light lightsource;
 
     public void Start()
