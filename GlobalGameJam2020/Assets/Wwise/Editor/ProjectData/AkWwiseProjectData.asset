@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: d0ed768774620c48bbee57a668a035df
     GuidInternal: 
-    m_lastTime: -8586210064942410288
+    m_lastTime: -8586209563386718960
     List:
     - name: Ambience
       guid: a7b571f241182742a98fcdff3bf5a810
@@ -65,7 +65,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 61c97b306c3ae54f9f1eda90242b8cb7
     GuidInternal: 
-    m_lastTime: -8586210066544994293
+    m_lastTime: -8586209563386799084
     List:
     - name: amb_creeking
       guid: 89365b250659de4fa09f7795a2c4e0b1
@@ -151,6 +151,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: music_ending
+      guid: 8af272a9955cc6468587d80749ae6d20
+      id: 1765706348
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: music_ending
+        ObjectType: 3
+      Path: Default Work Unit\music_ending
+      maxAttenuation: 0
+      maxDuration: 54576940
+      minDuration: 54576940
     - name: obj_light_01
       guid: 306dc9e886b8144791290ee0f8054959
       id: 4270401061
